@@ -15,4 +15,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\CRM.Api.Persistence\CRM.Api.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
