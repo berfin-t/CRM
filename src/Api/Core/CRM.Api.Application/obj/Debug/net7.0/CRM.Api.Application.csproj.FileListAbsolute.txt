@@ -1,0 +1,12 @@
+D:\github\CRM\src\Api\Core\CRM.Api.Application\bin\Debug\net7.0\CRM.Api.Application.deps.json
+D:\github\CRM\src\Api\Core\CRM.Api.Application\bin\Debug\net7.0\CRM.Api.Application.dll
+D:\github\CRM\src\Api\Core\CRM.Api.Application\bin\Debug\net7.0\CRM.Api.Application.pdb
+D:\github\CRM\src\Api\Core\CRM.Api.Application\obj\Debug\net7.0\CRM.Api.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\CRM\src\Api\Core\CRM.Api.Application\obj\Debug\net7.0\CRM.Api.Application.AssemblyInfoInputs.cache
+D:\github\CRM\src\Api\Core\CRM.Api.Application\obj\Debug\net7.0\CRM.Api.Application.AssemblyInfo.cs
+D:\github\CRM\src\Api\Core\CRM.Api.Application\obj\Debug\net7.0\CRM.Api.Application.csproj.CoreCompileInputs.cache
+D:\github\CRM\src\Api\Core\CRM.Api.Application\obj\Debug\net7.0\CRM.Api.Application.sourcelink.json
+D:\github\CRM\src\Api\Core\CRM.Api.Application\obj\Debug\net7.0\CRM.Api.Application.dll
+D:\github\CRM\src\Api\Core\CRM.Api.Application\obj\Debug\net7.0\refint\CRM.Api.Application.dll
+D:\github\CRM\src\Api\Core\CRM.Api.Application\obj\Debug\net7.0\CRM.Api.Application.pdb
+D:\github\CRM\src\Api\Core\CRM.Api.Application\obj\Debug\net7.0\ref\CRM.Api.Application.dll

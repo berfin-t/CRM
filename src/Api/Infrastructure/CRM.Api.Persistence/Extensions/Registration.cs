@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CRM.Api.Persistence.Context;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -13,7 +14,7 @@ public static class Registration
 {
     public static IServiceCollection AddInfrastructureRegistration(this IServiceCollection services, IConfiguration configuration)
     {
-        services.AddDbContext<DbContext>(conf =>
+        services.AddDbContext<CRMDbContext>(conf =>
         {
             var connStr = configuration["CRMDbConnectionString"].ToString();
             conf.UseNpgsql(connStr, opt =>
@@ -22,6 +23,11 @@ public static class Registration
             });
         });
 
+        //var seedData = new SeedData();
+        //seedData.SeedAsync(configuration).GetAwaiter().GetResult();
+
         return services;
+
+        
     }
 }

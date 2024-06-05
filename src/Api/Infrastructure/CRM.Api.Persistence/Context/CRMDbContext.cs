@@ -13,13 +13,15 @@ public class CRMDbContext: DbContext
 {
     public const string DEFAULT_SCHEMA = "dbo";
 
-    public CRMDbContext(DbContextOptions options) : base(options)
-    {
-    }
-
     public CRMDbContext()
     {
+
     }
+    public CRMDbContext(DbContextOptions options) : base(options)
+    {
+
+    }
+     
 
     public DbSet<ContactInfo> ContactInfos { get; set; } 
     public DbSet<CustomerTask> CustomerTasks { get; set; }

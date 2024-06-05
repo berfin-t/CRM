@@ -1,4 +1,6 @@
+using CRM.Api.Persistence.Context;
 using CRM.Api.Persistence.Extensions;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddInfrastructureRegistration(builder.Configuration);
+builder.Services.AddDbContext<CRMDbContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("CRMDbConnectionString"));
+});
 
 var app = builder.Build();
 

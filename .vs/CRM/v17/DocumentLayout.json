@@ -3,30 +3,50 @@
   "WorkspaceRootPath": "D:\\github\\CRM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09C48DC0-CD6A-4FB1-AB89-34A5F4F2901C}|src\\Api\\WepApi\\CRM.Api.WebApi\\CRM.Api.WebApi.csproj|d:\\github\\crm\\src\\api\\wepapi\\crm.api.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09C48DC0-CD6A-4FB1-AB89-34A5F4F2901C}|src\\Api\\WepApi\\CRM.Api.WebApi\\CRM.Api.WebApi.csproj|solutionrelative:src\\api\\wepapi\\crm.api.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|d:\\github\\crm\\src\\api\\infrastructure\\crm.api.persistence\\extensions\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|solutionrelative:src\\api\\infrastructure\\crm.api.persistence\\extensions\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09C48DC0-CD6A-4FB1-AB89-34A5F4F2901C}|src\\Api\\WepApi\\CRM.Api.WebApi\\CRM.Api.WebApi.csproj|d:\\github\\crm\\src\\api\\wepapi\\crm.api.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{09C48DC0-CD6A-4FB1-AB89-34A5F4F2901C}|src\\Api\\WepApi\\CRM.Api.WebApi\\CRM.Api.WebApi.csproj|solutionrelative:src\\api\\wepapi\\crm.api.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|d:\\github\\crm\\src\\api\\infrastructure\\crm.api.persistence\\entityconfigurations\\contactinfoentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|solutionrelative:src\\api\\infrastructure\\crm.api.persistence\\entityconfigurations\\contactinfoentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|d:\\github\\crm\\src\\api\\infrastructure\\crm.api.persistence\\entityconfigurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|solutionrelative:src\\api\\infrastructure\\crm.api.persistence\\entityconfigurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|d:\\github\\crm\\src\\api\\infrastructure\\crm.api.persistence\\context\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|solutionrelative:src\\api\\infrastructure\\crm.api.persistence\\context\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D1B0134-4D89-4B0F-93EA-E48D3385E726}|src\\Api\\Core\\CRM.Api.Domain\\CRM.Api.Domain.csproj|d:\\github\\crm\\src\\api\\core\\crm.api.domain\\models\\salesopportunity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D1B0134-4D89-4B0F-93EA-E48D3385E726}|src\\Api\\Core\\CRM.Api.Domain\\CRM.Api.Domain.csproj|solutionrelative:src\\api\\core\\crm.api.domain\\models\\salesopportunity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D1B0134-4D89-4B0F-93EA-E48D3385E726}|src\\Api\\Core\\CRM.Api.Domain\\CRM.Api.Domain.csproj|d:\\github\\crm\\src\\api\\core\\crm.api.domain\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D1B0134-4D89-4B0F-93EA-E48D3385E726}|src\\Api\\Core\\CRM.Api.Domain\\CRM.Api.Domain.csproj|solutionrelative:src\\api\\core\\crm.api.domain\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D1B0134-4D89-4B0F-93EA-E48D3385E726}|src\\Api\\Core\\CRM.Api.Domain\\CRM.Api.Domain.csproj|d:\\github\\crm\\src\\api\\core\\crm.api.domain\\models\\contactinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D1B0134-4D89-4B0F-93EA-E48D3385E726}|src\\Api\\Core\\CRM.Api.Domain\\CRM.Api.Domain.csproj|solutionrelative:src\\api\\core\\crm.api.domain\\models\\contactinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|d:\\github\\crm\\src\\api\\infrastructure\\crm.api.persistence\\entityconfigurations\\customertaskconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|solutionrelative:src\\api\\infrastructure\\crm.api.persistence\\entityconfigurations\\customertaskconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C48DC0-CD6A-4FB1-AB89-34A5F4F2901C}|src\\Api\\WepApi\\CRM.Api.WebApi\\CRM.Api.WebApi.csproj|d:\\github\\crm\\src\\api\\wepapi\\crm.api.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C48DC0-CD6A-4FB1-AB89-34A5F4F2901C}|src\\Api\\WepApi\\CRM.Api.WebApi\\CRM.Api.WebApi.csproj|solutionrelative:src\\api\\wepapi\\crm.api.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 1147,
+          "SelectedChildIndex": 29,
           "Children": [
             {
               "$type": "Bookmark",
@@ -135,83 +155,136 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 648,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\WepApi\\CRM.Api.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Api\\WepApi\\CRM.Api.WebApi\\Program.cs",
-              "ToolTip": "D:\\github\\CRM\\src\\Api\\WepApi\\CRM.Api.WebApi\\Program.cs",
-              "RelativeToolTip": "src\\Api\\WepApi\\CRM.Api.WebApi\\Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwA8AAAAnAAAA",
+              "DocumentIndex": 2,
+              "Title": "CustomerConfiguration.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\CustomerConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\CustomerConfiguration.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\CustomerConfiguration.cs",
+              "RelativeToolTip": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\CustomerConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:15:49.474Z",
+              "WhenOpened": "2024-06-05T20:21:10.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ContactInfoEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\ContactInfoEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\ContactInfoEntityConfiguration.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\ContactInfoEntityConfiguration.cs",
+              "RelativeToolTip": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\ContactInfoEntityConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T20:20:58.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Registration.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\Extensions\\Registration.cs",
               "RelativeDocumentMoniker": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\Extensions\\Registration.cs",
               "ToolTip": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\Extensions\\Registration.cs",
               "RelativeToolTip": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\Extensions\\Registration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABCAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:10:01.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\WepApi\\CRM.Api.WebApi\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "src\\Api\\WepApi\\CRM.Api.WebApi\\appsettings.Development.json",
-              "ToolTip": "D:\\github\\CRM\\src\\Api\\WepApi\\CRM.Api.WebApi\\appsettings.Development.json",
-              "RelativeToolTip": "src\\Api\\WepApi\\CRM.Api.WebApi\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAB4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-05T15:13:07.9Z",
+              "WhenOpened": "2024-06-05T15:45:43.27Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SalesOpportunity.cs",
-              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Domain\\Models\\SalesOpportunity.cs",
-              "RelativeDocumentMoniker": "src\\Api\\Core\\CRM.Api.Domain\\Models\\SalesOpportunity.cs",
-              "ToolTip": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Domain\\Models\\SalesOpportunity.cs",
-              "RelativeToolTip": "src\\Api\\Core\\CRM.Api.Domain\\Models\\SalesOpportunity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAQAAAA",
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\Context\\SeedData.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\Context\\SeedData.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\Context\\SeedData.cs",
+              "RelativeToolTip": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\Context\\SeedData.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAmwHkAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T19:00:57.03Z",
+              "WhenOpened": "2024-06-05T16:28:32.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContactInfo.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Domain\\Models\\ContactInfo.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\CRM.Api.Domain\\Models\\ContactInfo.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Domain\\Models\\ContactInfo.cs",
+              "RelativeToolTip": "src\\Api\\Core\\CRM.Api.Domain\\Models\\ContactInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T20:19:11.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Domain\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\CRM.Api.Domain\\Models\\Customer.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Domain\\Models\\Customer.cs",
+              "RelativeToolTip": "src\\Api\\Core\\CRM.Api.Domain\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T20:19:00.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerTaskConfiguration.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\CustomerTaskConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\CustomerTaskConfiguration.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\CustomerTaskConfiguration.cs",
+              "RelativeToolTip": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\CustomerTaskConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T20:21:11.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\WepApi\\CRM.Api.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Api\\WepApi\\CRM.Api.WebApi\\Program.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Api\\WepApi\\CRM.Api.WebApi\\Program.cs",
+              "RelativeToolTip": "src\\Api\\WepApi\\CRM.Api.WebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T15:42:56.839Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 237,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 855,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{4a9b7e51-aa16-11d0-a8c5-00a0c921a4d2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SalesOpportunity.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Domain\\Models\\SalesOpportunity.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\CRM.Api.Domain\\Models\\SalesOpportunity.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Domain\\Models\\SalesOpportunity.cs",
+              "RelativeToolTip": "src\\Api\\Core\\CRM.Api.Domain\\Models\\SalesOpportunity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T20:47:52.559Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 362,
+          "SelectedChildIndex": -1,
+          "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -219,7 +292,21 @@
           ]
         },
         {
-          "DockedHeight": 442,
+          "DockedWidth": 186,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 186,
           "SelectedChildIndex": -1,
           "Children": [
             {

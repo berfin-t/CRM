@@ -1,0 +1,16 @@
+D:\github\CRM\src\Api\Core\CRM.Api.Domain\bin\Debug\net7.0\CRM.Api.Domain.deps.json
+D:\github\CRM\src\Api\Core\CRM.Api.Domain\bin\Debug\net7.0\CRM.Api.Domain.dll
+D:\github\CRM\src\Api\Core\CRM.Api.Domain\bin\Debug\net7.0\CRM.Api.Domain.pdb
+D:\github\CRM\src\Api\Core\CRM.Api.Domain\bin\Debug\net7.0\CRM.Common.dll
+D:\github\CRM\src\Api\Core\CRM.Api.Domain\bin\Debug\net7.0\CRM.Common.pdb
+D:\github\CRM\src\Api\Core\CRM.Api.Domain\obj\Debug\net7.0\CRM.Api.Domain.csproj.AssemblyReference.cache
+D:\github\CRM\src\Api\Core\CRM.Api.Domain\obj\Debug\net7.0\CRM.Api.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\CRM\src\Api\Core\CRM.Api.Domain\obj\Debug\net7.0\CRM.Api.Domain.AssemblyInfoInputs.cache
+D:\github\CRM\src\Api\Core\CRM.Api.Domain\obj\Debug\net7.0\CRM.Api.Domain.AssemblyInfo.cs
+D:\github\CRM\src\Api\Core\CRM.Api.Domain\obj\Debug\net7.0\CRM.Api.Domain.csproj.CoreCompileInputs.cache
+D:\github\CRM\src\Api\Core\CRM.Api.Domain\obj\Debug\net7.0\CRM.Api.Domain.sourcelink.json
+D:\github\CRM\src\Api\Core\CRM.Api.Domain\obj\Debug\net7.0\CRM.Api..2304B7E2.Up2Date
+D:\github\CRM\src\Api\Core\CRM.Api.Domain\obj\Debug\net7.0\CRM.Api.Domain.dll
+D:\github\CRM\src\Api\Core\CRM.Api.Domain\obj\Debug\net7.0\refint\CRM.Api.Domain.dll
+D:\github\CRM\src\Api\Core\CRM.Api.Domain\obj\Debug\net7.0\CRM.Api.Domain.pdb
+D:\github\CRM\src\Api\Core\CRM.Api.Domain\obj\Debug\net7.0\ref\CRM.Api.Domain.dll
