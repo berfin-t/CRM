@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\CRM.Api.Application\CRM.Api.Application.csproj" />
     <ProjectReference Include="..\..\Core\CRM.Api.Domain\CRM.Api.Domain.csproj" />
   </ItemGroup>
 

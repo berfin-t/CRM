@@ -10,3 +10,9 @@ D:\github\CRM\src\Api\Core\CRM.Api.Application\obj\Debug\net7.0\CRM.Api.Applicat
 D:\github\CRM\src\Api\Core\CRM.Api.Application\obj\Debug\net7.0\refint\CRM.Api.Application.dll
 D:\github\CRM\src\Api\Core\CRM.Api.Application\obj\Debug\net7.0\CRM.Api.Application.pdb
 D:\github\CRM\src\Api\Core\CRM.Api.Application\obj\Debug\net7.0\ref\CRM.Api.Application.dll
+D:\github\CRM\src\Api\Core\CRM.Api.Application\bin\Debug\net7.0\CRM.Api.Domain.dll
+D:\github\CRM\src\Api\Core\CRM.Api.Application\bin\Debug\net7.0\CRM.Common.dll
+D:\github\CRM\src\Api\Core\CRM.Api.Application\bin\Debug\net7.0\CRM.Api.Domain.pdb
+D:\github\CRM\src\Api\Core\CRM.Api.Application\bin\Debug\net7.0\CRM.Common.pdb
+D:\github\CRM\src\Api\Core\CRM.Api.Application\obj\Debug\net7.0\CRM.Api.Application.csproj.AssemblyReference.cache
+D:\github\CRM\src\Api\Core\CRM.Api.Application\obj\Debug\net7.0\CRM.Api..B50C8EFF.Up2Date

@@ -80,3 +80,5 @@ D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\obj\Debug\net7.0\refint\CRM.Api.WebA
 D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\obj\Debug\net7.0\CRM.Api.WebApi.pdb
 D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\obj\Debug\net7.0\CRM.Api.WebApi.genruntimeconfig.cache
 D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\obj\Debug\net7.0\ref\CRM.Api.WebApi.dll
+D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\bin\Debug\net7.0\CRM.Api.Application.dll
+D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\bin\Debug\net7.0\CRM.Api.Application.pdb

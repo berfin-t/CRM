@@ -1211,6 +1211,19 @@
           }
         }
       },
+      "CRM.Api.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "CRM.Api.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CRM.Api.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRM.Api.Application.dll": {}
+        }
+      },
       "CRM.Api.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3659,6 +3672,11 @@
         "version.txt"
       ]
     },
+    "CRM.Api.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/CRM.Api.Application/CRM.Api.Application.csproj",
+      "msbuildProject": "../../Core/CRM.Api.Application/CRM.Api.Application.csproj"
+    },
     "CRM.Api.Domain/1.0.0": {
       "type": "project",
       "path": "../../Core/CRM.Api.Domain/CRM.Api.Domain.csproj",
@@ -3673,6 +3691,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Bogus >= 35.5.1",
+      "CRM.Api.Application >= 1.0.0",
       "CRM.Api.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Relational >= 7.0.0",
@@ -3709,6 +3728,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\CRM.Api.Application.csproj": {
+              "projectPath": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\CRM.Api.Application.csproj"
+            },
             "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Domain\\CRM.Api.Domain.csproj": {
               "projectPath": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Domain\\CRM.Api.Domain.csproj"
             }

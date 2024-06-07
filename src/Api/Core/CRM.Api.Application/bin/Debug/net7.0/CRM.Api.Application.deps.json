@@ -7,14 +7,40 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "CRM.Api.Application/1.0.0": {
+        "dependencies": {
+          "CRM.Api.Domain": "1.0.0"
+        },
         "runtime": {
           "CRM.Api.Application.dll": {}
+        }
+      },
+      "CRM.Api.Domain/1.0.0": {
+        "dependencies": {
+          "CRM.Common": "1.0.0"
+        },
+        "runtime": {
+          "CRM.Api.Domain.dll": {}
+        }
+      },
+      "CRM.Common/1.0.0": {
+        "runtime": {
+          "CRM.Common.dll": {}
         }
       }
     }
   },
   "libraries": {
     "CRM.Api.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CRM.Api.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CRM.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

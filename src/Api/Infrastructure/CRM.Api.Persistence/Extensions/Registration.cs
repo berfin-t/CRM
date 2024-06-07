@@ -1,4 +1,6 @@
-﻿using CRM.Api.Persistence.Context;
+﻿using CRM.Api.Application.Interfaces.Repositories;
+using CRM.Api.Persistence.Context;
+using CRM.Api.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -25,6 +27,13 @@ public static class Registration
 
         //var seedData = new SeedData();
         //seedData.SeedAsync(configuration).GetAwaiter().GetResult();
+
+        services.AddScoped<IContactInfoRepository, ContactInfoRepository>();
+        services.AddScoped<ICustomerRepository, CustomerRepository>();
+        services.AddScoped<ICustomerTaskRepository, CustomerTaskRepository>();
+        services.AddScoped<IInteractionRepository, InteractionRepository>();
+        services.AddScoped<ISalesOpporrtunityRepository, SalesOpportunityRepository>();
+        services.AddScoped<IUserRepository, UserRepository>();
 
         return services;
 

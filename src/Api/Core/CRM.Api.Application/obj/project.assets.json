@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "CRM.Api.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "CRM.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CRM.Api.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRM.Api.Domain.dll": {}
+        }
+      },
+      "CRM.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CRM.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRM.Common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CRM.Api.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CRM.Api.Domain/CRM.Api.Domain.csproj",
+      "msbuildProject": "../CRM.Api.Domain/CRM.Api.Domain.csproj"
+    },
+    "CRM.Common/1.0.0": {
+      "type": "project",
+      "path": "../../../Common/CRM.Common/CRM.Common.csproj",
+      "msbuildProject": "../../../Common/CRM.Common/CRM.Common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "CRM.Api.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Berfin\\.nuget\\packages\\": {}
@@ -33,7 +70,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Domain\\CRM.Api.Domain.csproj": {
+              "projectPath": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Domain\\CRM.Api.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
