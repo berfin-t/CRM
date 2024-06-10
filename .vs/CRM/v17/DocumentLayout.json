@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "D:\\github\\CRM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|d:\\github\\crm\\src\\api\\infrastructure\\crm.api.persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|solutionrelative:src\\api\\infrastructure\\crm.api.persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09C48DC0-CD6A-4FB1-AB89-34A5F4F2901C}|src\\Api\\WepApi\\CRM.Api.WebApi\\CRM.Api.WebApi.csproj|d:\\github\\crm\\src\\api\\wepapi\\crm.api.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{09C48DC0-CD6A-4FB1-AB89-34A5F4F2901C}|src\\Api\\WepApi\\CRM.Api.WebApi\\CRM.Api.WebApi.csproj|solutionrelative:src\\api\\wepapi\\crm.api.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|d:\\github\\crm\\src\\api\\infrastructure\\crm.api.persistence\\extensions\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|solutionrelative:src\\api\\infrastructure\\crm.api.persistence\\extensions\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09C48DC0-CD6A-4FB1-AB89-34A5F4F2901C}|src\\Api\\WepApi\\CRM.Api.WebApi\\CRM.Api.WebApi.csproj|d:\\github\\crm\\src\\api\\wepapi\\crm.api.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C48DC0-CD6A-4FB1-AB89-34A5F4F2901C}|src\\Api\\WepApi\\CRM.Api.WebApi\\CRM.Api.WebApi.csproj|solutionrelative:src\\api\\wepapi\\crm.api.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{534A506B-C49B-489C-A70C-E22C8C1F7326}|src\\Api\\Core\\CRM.Api.Application\\CRM.Api.Application.csproj|d:\\github\\crm\\src\\api\\core\\crm.api.application\\features\\commands\\user\\login\\loginusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{534A506B-C49B-489C-A70C-E22C8C1F7326}|src\\Api\\Core\\CRM.Api.Application\\CRM.Api.Application.csproj|solutionrelative:src\\api\\core\\crm.api.application\\features\\commands\\user\\login\\loginusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AD70F3-92DF-42E1-9EB7-CB8C7E4F85DE}|src\\Common\\CRM.Common\\CRM.Common.csproj|d:\\github\\crm\\src\\common\\crm.common\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2AD70F3-92DF-42E1-9EB7-CB8C7E4F85DE}|src\\Common\\CRM.Common\\CRM.Common.csproj|solutionrelative:src\\common\\crm.common\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{534A506B-C49B-489C-A70C-E22C8C1F7326}|src\\Api\\Core\\CRM.Api.Application\\CRM.Api.Application.csproj|d:\\github\\crm\\src\\api\\core\\crm.api.application\\mapping\\mapprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{534A506B-C49B-489C-A70C-E22C8C1F7326}|src\\Api\\Core\\CRM.Api.Application\\CRM.Api.Application.csproj|solutionrelative:src\\api\\core\\crm.api.application\\mapping\\mapprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D1B0134-4D89-4B0F-93EA-E48D3385E726}|src\\Api\\Core\\CRM.Api.Domain\\CRM.Api.Domain.csproj|d:\\github\\crm\\src\\api\\core\\crm.api.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D1B0134-4D89-4B0F-93EA-E48D3385E726}|src\\Api\\Core\\CRM.Api.Domain\\CRM.Api.Domain.csproj|solutionrelative:src\\api\\core\\crm.api.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AD70F3-92DF-42E1-9EB7-CB8C7E4F85DE}|src\\Common\\CRM.Common\\CRM.Common.csproj|d:\\github\\crm\\src\\common\\crm.common\\infrastructure\\exceptions\\databasevalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2AD70F3-92DF-42E1-9EB7-CB8C7E4F85DE}|src\\Common\\CRM.Common\\CRM.Common.csproj|solutionrelative:src\\common\\crm.common\\infrastructure\\exceptions\\databasevalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AD70F3-92DF-42E1-9EB7-CB8C7E4F85DE}|src\\Common\\CRM.Common\\CRM.Common.csproj|d:\\github\\crm\\src\\common\\crm.common\\models\\requestmodels\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2AD70F3-92DF-42E1-9EB7-CB8C7E4F85DE}|src\\Common\\CRM.Common\\CRM.Common.csproj|solutionrelative:src\\common\\crm.common\\models\\requestmodels\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AD70F3-92DF-42E1-9EB7-CB8C7E4F85DE}|src\\Common\\CRM.Common\\CRM.Common.csproj|d:\\github\\crm\\src\\common\\crm.common\\models\\queries\\loginuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2AD70F3-92DF-42E1-9EB7-CB8C7E4F85DE}|src\\Common\\CRM.Common\\CRM.Common.csproj|solutionrelative:src\\common\\crm.common\\models\\queries\\loginuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{534A506B-C49B-489C-A70C-E22C8C1F7326}|src\\Api\\Core\\CRM.Api.Application\\CRM.Api.Application.csproj|d:\\github\\crm\\src\\api\\core\\crm.api.application\\extensions\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{534A506B-C49B-489C-A70C-E22C8C1F7326}|src\\Api\\Core\\CRM.Api.Application\\CRM.Api.Application.csproj|solutionrelative:src\\api\\core\\crm.api.application\\extensions\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|d:\\github\\crm\\src\\api\\infrastructure\\crm.api.persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|solutionrelative:src\\api\\infrastructure\\crm.api.persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|d:\\github\\crm\\src\\api\\infrastructure\\crm.api.persistence\\repositories\\salesopportunityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,10 +107,6 @@
       "RelativeMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|solutionrelative:src\\api\\infrastructure\\crm.api.persistence\\entityconfigurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|d:\\github\\crm\\src\\api\\infrastructure\\crm.api.persistence\\context\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|solutionrelative:src\\api\\infrastructure\\crm.api.persistence\\context\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5D1B0134-4D89-4B0F-93EA-E48D3385E726}|src\\Api\\Core\\CRM.Api.Domain\\CRM.Api.Domain.csproj|d:\\github\\crm\\src\\api\\core\\crm.api.domain\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D1B0134-4D89-4B0F-93EA-E48D3385E726}|src\\Api\\Core\\CRM.Api.Domain\\CRM.Api.Domain.csproj|solutionrelative:src\\api\\core\\crm.api.domain\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -85,10 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|d:\\github\\crm\\src\\api\\infrastructure\\crm.api.persistence\\entityconfigurations\\customertaskconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBDD87CF-3FA9-4E06-AE5D-BA118425C4B0}|src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj|solutionrelative:src\\api\\infrastructure\\crm.api.persistence\\entityconfigurations\\customertaskconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09C48DC0-CD6A-4FB1-AB89-34A5F4F2901C}|src\\Api\\WepApi\\CRM.Api.WebApi\\CRM.Api.WebApi.csproj|d:\\github\\crm\\src\\api\\wepapi\\crm.api.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09C48DC0-CD6A-4FB1-AB89-34A5F4F2901C}|src\\Api\\WepApi\\CRM.Api.WebApi\\CRM.Api.WebApi.csproj|solutionrelative:src\\api\\wepapi\\crm.api.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1147,
-          "SelectedChildIndex": 29,
+          "SelectedChildIndex": 28,
           "Children": [
             {
               "$type": "Bookmark",
@@ -214,7 +242,137 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\WepApi\\CRM.Api.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Api\\WepApi\\CRM.Api.WebApi\\appsettings.json",
+              "ToolTip": "D:\\github\\CRM\\src\\Api\\WepApi\\CRM.Api.WebApi\\appsettings.json",
+              "RelativeToolTip": "src\\Api\\WepApi\\CRM.Api.WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-10T20:45:23.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\WepApi\\CRM.Api.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Api\\WepApi\\CRM.Api.WebApi\\Program.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Api\\WepApi\\CRM.Api.WebApi\\Program.cs",
+              "RelativeToolTip": "src\\Api\\WepApi\\CRM.Api.WebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T15:42:56.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "LoginUserCommandValidator.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\Features\\Commands\\User\\Login\\LoginUserCommandValidator.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\CRM.Api.Application\\Features\\Commands\\User\\Login\\LoginUserCommandValidator.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\Features\\Commands\\User\\Login\\LoginUserCommandValidator.cs",
+              "RelativeToolTip": "src\\Api\\Core\\CRM.Api.Application\\Features\\Commands\\User\\Login\\LoginUserCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T20:33:24.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Common\\CRM.Common\\Models\\Enums.cs",
+              "RelativeDocumentMoniker": "src\\Common\\CRM.Common\\Models\\Enums.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Common\\CRM.Common\\Models\\Enums.cs",
+              "RelativeToolTip": "src\\Common\\CRM.Common\\Models\\Enums.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwB8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T20:11:57.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MapProfile.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\Mapping\\MapProfile.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\CRM.Api.Application\\Mapping\\MapProfile.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\Mapping\\MapProfile.cs",
+              "RelativeToolTip": "src\\Api\\Core\\CRM.Api.Application\\Mapping\\MapProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T20:04:35.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\CRM.Api.Domain\\Models\\User.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Domain\\Models\\User.cs",
+              "RelativeToolTip": "src\\Api\\Core\\CRM.Api.Domain\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T19:31:22.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatabaseValidationException.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Common\\CRM.Common\\Infrastructure\\Exceptions\\DatabaseValidationException.cs",
+              "RelativeDocumentMoniker": "src\\Common\\CRM.Common\\Infrastructure\\Exceptions\\DatabaseValidationException.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Common\\CRM.Common\\Infrastructure\\Exceptions\\DatabaseValidationException.cs",
+              "RelativeToolTip": "src\\Common\\CRM.Common\\Infrastructure\\Exceptions\\DatabaseValidationException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T19:43:05.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginUserCommand.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Common\\CRM.Common\\Models\\RequestModels\\LoginUserCommand.cs",
+              "RelativeDocumentMoniker": "src\\Common\\CRM.Common\\Models\\RequestModels\\LoginUserCommand.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Common\\CRM.Common\\Models\\RequestModels\\LoginUserCommand.cs",
+              "RelativeToolTip": "src\\Common\\CRM.Common\\Models\\RequestModels\\LoginUserCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T19:24:39.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginUserViewModel.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Common\\CRM.Common\\Models\\Queries\\LoginUserViewModel.cs",
+              "RelativeDocumentMoniker": "src\\Common\\CRM.Common\\Models\\Queries\\LoginUserViewModel.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Common\\CRM.Common\\Models\\Queries\\LoginUserViewModel.cs",
+              "RelativeToolTip": "src\\Common\\CRM.Common\\Models\\Queries\\LoginUserViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T19:26:24.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\Extensions\\Registration.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\CRM.Api.Application\\Extensions\\Registration.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\Extensions\\Registration.cs",
+              "RelativeToolTip": "src\\Api\\Core\\CRM.Api.Application\\Extensions\\Registration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T18:56:54.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "SalesOpportunityRepository.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\Repositories\\SalesOpportunityRepository.cs",
               "RelativeDocumentMoniker": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\Repositories\\SalesOpportunityRepository.cs",
@@ -227,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\Repositories\\UserRepository.cs",
@@ -240,20 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Registration.cs",
-              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\Extensions\\Registration.cs",
-              "RelativeDocumentMoniker": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\Extensions\\Registration.cs",
-              "ToolTip": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\Extensions\\Registration.cs",
-              "RelativeToolTip": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\Extensions\\Registration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:45:43.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "InteractionRepository.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\Repositories\\InteractionRepository.cs",
               "RelativeDocumentMoniker": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\Repositories\\InteractionRepository.cs",
@@ -266,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\Repositories\\GenericRepository.cs",
@@ -279,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "CustomerTaskRepository.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\Repositories\\CustomerTaskRepository.cs",
               "RelativeDocumentMoniker": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\Repositories\\CustomerTaskRepository.cs",
@@ -292,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "ContactInfoRepository.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\Repositories\\ContactInfoRepository.cs",
               "RelativeDocumentMoniker": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\Repositories\\ContactInfoRepository.cs",
@@ -305,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\Repositories\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\Repositories\\CustomerRepository.cs",
@@ -318,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\Interfaces\\Repositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "src\\Api\\Core\\CRM.Api.Application\\Interfaces\\Repositories\\IUserRepository.cs",
@@ -331,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "ISalesOpporrtunityRepository.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\Interfaces\\Repositories\\ISalesOpporrtunityRepository.cs",
               "RelativeDocumentMoniker": "src\\Api\\Core\\CRM.Api.Application\\Interfaces\\Repositories\\ISalesOpporrtunityRepository.cs",
@@ -344,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "IInteractionRepository.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\Interfaces\\Repositories\\IInteractionRepository.cs",
               "RelativeDocumentMoniker": "src\\Api\\Core\\CRM.Api.Application\\Interfaces\\Repositories\\IInteractionRepository.cs",
@@ -357,20 +502,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\Interfaces\\Repositories\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "src\\Api\\Core\\CRM.Api.Application\\Interfaces\\Repositories\\IGenericRepository.cs",
               "ToolTip": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\Interfaces\\Repositories\\IGenericRepository.cs",
               "RelativeToolTip": "src\\Api\\Core\\CRM.Api.Application\\Interfaces\\Repositories\\IGenericRepository.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAA3wCMAAAAAAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAYwCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T19:30:41.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "ICustomerTaskRepository.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\Interfaces\\Repositories\\ICustomerTaskRepository.cs",
               "RelativeDocumentMoniker": "src\\Api\\Core\\CRM.Api.Application\\Interfaces\\Repositories\\ICustomerTaskRepository.cs",
@@ -383,7 +528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "ICustomerRepository.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\Interfaces\\Repositories\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "src\\Api\\Core\\CRM.Api.Application\\Interfaces\\Repositories\\ICustomerRepository.cs",
@@ -396,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "IContactInfoRepository.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\Interfaces\\Repositories\\IContactInfoRepository.cs",
               "RelativeDocumentMoniker": "src\\Api\\Core\\CRM.Api.Application\\Interfaces\\Repositories\\IContactInfoRepository.cs",
@@ -409,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "CustomerConfiguration.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\CustomerConfiguration.cs",
               "RelativeDocumentMoniker": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\CustomerConfiguration.cs",
@@ -417,11 +562,12 @@
               "RelativeToolTip": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\CustomerConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T20:21:10.035Z"
+              "WhenOpened": "2024-06-05T20:21:10.035Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "ContactInfoEntityConfiguration.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\ContactInfoEntityConfiguration.cs",
               "RelativeDocumentMoniker": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\ContactInfoEntityConfiguration.cs",
@@ -429,23 +575,12 @@
               "RelativeToolTip": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\ContactInfoEntityConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T20:20:58.025Z"
+              "WhenOpened": "2024-06-05T20:20:58.025Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\Context\\SeedData.cs",
-              "RelativeDocumentMoniker": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\Context\\SeedData.cs",
-              "ToolTip": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\Context\\SeedData.cs",
-              "RelativeToolTip": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\Context\\SeedData.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAmwHkAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T16:28:32.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "ContactInfo.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Domain\\Models\\ContactInfo.cs",
               "RelativeDocumentMoniker": "src\\Api\\Core\\CRM.Api.Domain\\Models\\ContactInfo.cs",
@@ -453,11 +588,12 @@
               "RelativeToolTip": "src\\Api\\Core\\CRM.Api.Domain\\Models\\ContactInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T20:19:11.03Z"
+              "WhenOpened": "2024-06-05T20:19:11.03Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "Customer.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Domain\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "src\\Api\\Core\\CRM.Api.Domain\\Models\\Customer.cs",
@@ -465,11 +601,12 @@
               "RelativeToolTip": "src\\Api\\Core\\CRM.Api.Domain\\Models\\Customer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T20:19:00.484Z"
+              "WhenOpened": "2024-06-05T20:19:00.484Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "CustomerTaskConfiguration.cs",
               "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\CustomerTaskConfiguration.cs",
               "RelativeDocumentMoniker": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\CustomerTaskConfiguration.cs",
@@ -477,19 +614,8 @@
               "RelativeToolTip": "src\\Api\\Infrastructure\\CRM.Api.Persistence\\EntityConfigurations\\CustomerTaskConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T20:21:11.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\WepApi\\CRM.Api.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Api\\WepApi\\CRM.Api.WebApi\\Program.cs",
-              "ToolTip": "D:\\github\\CRM\\src\\Api\\WepApi\\CRM.Api.WebApi\\Program.cs",
-              "RelativeToolTip": "src\\Api\\WepApi\\CRM.Api.WebApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:42:56.839Z"
+              "WhenOpened": "2024-06-05T20:21:11.705Z",
+              "EditorCaption": ""
             }
           ]
         },

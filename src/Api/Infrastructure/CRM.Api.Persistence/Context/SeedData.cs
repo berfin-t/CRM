@@ -27,6 +27,7 @@ internal class SeedData
             .RuleFor(i=>i.FirstName, i=>i.Person.FirstName)
             .RuleFor(i=>i.LastName, i=>i.Person.LastName)
             .RuleFor(i=>i.Role, i => i.PickRandom<Role>())
+            .RuleFor(i => i.EmailConfirmed, i => i.PickRandom(true, false))
             .Generate(500);
 
         return result;
@@ -84,7 +85,7 @@ internal class SeedData
             .RuleFor(i => i.ContactType, i => i.PickRandom<ContactType>())
             .RuleFor(i => i.ContactDetail, i => i.Lorem.Sentence(2, 5))
             .RuleFor(i => i.Preferred, i => i.PickRandom(true, false))
-            .RuleFor(i => i.CustomerId, i => i.PickRandom(customerIds))
+            .RuleFor(i => i.CustomerId, i => i.PickRandom(customerIds))            
             .Generate(50);
 
         await context.ContactInfos.AddRangeAsync(contactInfo);

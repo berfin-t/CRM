@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DD5u1B/FBipWFVnMxeJh8G4NwSsI4iiJ5MYwKqzRYICPAwnyLwA6CXi/DkTFyp7yJeftyztgy+7G6mq0MTCUqQ==",
+  "dgSpecHash": "I1ALsNvyQxlihlTp23f6bQ3h4c2kAabodCXg9tlO52obpSQ60N1ff3aEYMrV8AuWoxJZc05shEm+6Y/Kd+hFgw==",
   "success": true,
   "projectFilePath": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Domain\\CRM.Api.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Berfin\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
+    "C:\\Users\\Berfin\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Berfin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

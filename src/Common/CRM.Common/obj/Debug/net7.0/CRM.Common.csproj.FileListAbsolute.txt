@@ -10,3 +10,4 @@ D:\github\CRM\src\Common\CRM.Common\obj\Debug\net7.0\CRM.Common.dll
 D:\github\CRM\src\Common\CRM.Common\obj\Debug\net7.0\refint\CRM.Common.dll
 D:\github\CRM\src\Common\CRM.Common\obj\Debug\net7.0\CRM.Common.pdb
 D:\github\CRM\src\Common\CRM.Common\obj\Debug\net7.0\ref\CRM.Common.dll
+D:\github\CRM\src\Common\CRM.Common\obj\Debug\net7.0\CRM.Common.csproj.AssemblyReference.cache

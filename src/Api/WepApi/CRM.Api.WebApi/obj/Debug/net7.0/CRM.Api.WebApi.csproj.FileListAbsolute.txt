@@ -82,3 +82,12 @@ D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\obj\Debug\net7.0\CRM.Api.WebApi.genr
 D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\obj\Debug\net7.0\ref\CRM.Api.WebApi.dll
 D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\bin\Debug\net7.0\CRM.Api.Application.dll
 D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\bin\Debug\net7.0\CRM.Api.Application.pdb
+D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\bin\Debug\net7.0\AutoMapper.dll
+D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\bin\Debug\net7.0\FluentValidation.dll
+D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\bin\Debug\net7.0\MediatR.dll
+D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\bin\Debug\net7.0\MediatR.Contracts.dll
+D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\bin\Debug\net7.0\FluentValidation.AspNetCore.dll

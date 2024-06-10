@@ -16,6 +16,7 @@ public class User: BaseEntity
     public string FirstName { get; set; }
     public string LastName { get; set; }
     public Role Role { get; set; }
+    public bool EmailConfirmed { get; set; }
 
     public virtual ICollection<CustomerTask> CustomerTasks { get; set; }
     public virtual ICollection<Interaction> Interactions { get; set; }
