@@ -134,6 +134,29 @@ namespace CRM.Api.Persistence.Migrations
                     b.ToTable("customertask", "dbo");
                 });
 
+            modelBuilder.Entity("CRM.Api.Domain.Models.EmailConfirmation", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("NewEmailAddress")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("OldEmailAddress")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("emailconfirmation", "dbo");
+                });
+
             modelBuilder.Entity("CRM.Api.Domain.Models.Interaction", b =>
                 {
                     b.Property<Guid>("Id")

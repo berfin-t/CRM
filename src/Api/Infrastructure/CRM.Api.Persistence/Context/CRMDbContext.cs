@@ -29,6 +29,7 @@ public class CRMDbContext: DbContext
     public DbSet<Interaction> Interactions { get; set; }
     public DbSet<SalesOpportunity> SalesOpportunities { get; set; }
     public DbSet<User> Users { get; set; }
+    public DbSet<EmailConfirmation> EmailConfirmations { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

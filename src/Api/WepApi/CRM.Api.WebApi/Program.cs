@@ -1,3 +1,4 @@
+using CRM.Api.Application.Extensions;
 using CRM.Api.Persistence.Context;
 using CRM.Api.Persistence.Extensions;
 using FluentValidation.AspNetCore;
@@ -18,6 +19,7 @@ builder.Services
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddApplicationRegistration();
 builder.Services.AddInfrastructureRegistration(builder.Configuration);
 builder.Services.AddDbContext<CRMDbContext>(options =>
 {

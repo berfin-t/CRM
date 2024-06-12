@@ -34,6 +34,7 @@ public static class Registration
         services.AddScoped<IInteractionRepository, InteractionRepository>();
         services.AddScoped<ISalesOpporrtunityRepository, SalesOpportunityRepository>();
         services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IEmailConfirmationRepository, EmailConfirmationRepository>();
 
         return services;
 
