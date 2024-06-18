@@ -2,6 +2,7 @@
 using CRM.Api.Application.Interfaces.Repositories;
 using CRM.Common;
 using CRM.Common.Events;
+using CRM.Common.Events.User;
 using CRM.Common.Infrastructure;
 using CRM.Common.Infrastructure.Exceptions;
 using CRM.Common.Models.RequestModels;

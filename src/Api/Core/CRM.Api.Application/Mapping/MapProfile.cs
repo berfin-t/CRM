@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using CRM.Api.Domain.Models;
 using CRM.Common.Models.Queries;
+using CRM.Common.Models.RequestModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +15,9 @@ public class MapProfile: Profile
     public MapProfile() 
     { 
         CreateMap<User,LoginUserViewModel>().ReverseMap();
+        CreateMap<CreateCustomerCommand, Customer>().ReverseMap();
+        CreateMap<CreateCustomerTaskCommand, CustomerTask>().ReverseMap();
+        CreateMap<CreateInteractionCommand , Interaction>().ReverseMap();
+        CreateMap<CreateSalesOpportunityCommand, SalesOpportunity>().ReverseMap();
     }
 }

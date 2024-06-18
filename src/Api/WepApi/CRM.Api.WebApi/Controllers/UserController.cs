@@ -1,4 +1,6 @@
-﻿using CRM.Common.Models.RequestModels;
+﻿using CRM.Api.Application.Features.Commands.User.ConfirmEmail;
+using CRM.Common.Events.User;
+using CRM.Common.Models.RequestModels;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,6 +23,31 @@ public class UserController : BaseController
     public async Task<IActionResult> Login([FromBody] LoginUserCommand command)
     {
         var result = await mediator.Send(command);
+        return Ok(result);
+    }
+
+    [HttpPost]
+    [Route("ChangePassword")]
+    public async Task<IActionResult> ChangePassword([FromBody] ChangeUserPasswordCommand command)
+    {
+        if(!command.UserId.HasValue)
+        {
+            command.UserId = UserId;
+        }
+
+        var result = await mediator.Send(command);
+        return Ok(result);
+    }
+
+    [HttpPost]
+    [Route("Confirm")]
+    public async Task<IActionResult> ConfirmEmail(Guid id)
+    {
+        var result = await mediator.Send(new ConfirmEmailCommand()
+        {
+            ConfirmationId = id
+        });
+
         return Ok(result);
     }
     

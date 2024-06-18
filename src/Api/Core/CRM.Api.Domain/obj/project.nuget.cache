@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "I1ALsNvyQxlihlTp23f6bQ3h4c2kAabodCXg9tlO52obpSQ60N1ff3aEYMrV8AuWoxJZc05shEm+6Y/Kd+hFgw==",
+  "dgSpecHash": "sdKdGc8tbHbeLvsWinyLOxRWxAF/ePIkx8737Mt8VdAuKFgemC/Cr/Lk4RkX0Zfx5Js1p1bG6N4EiofQ5Z7ZdA==",
   "success": true,
   "projectFilePath": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Domain\\CRM.Api.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Berfin\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
     "C:\\Users\\Berfin\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\Berfin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "C:\\Users\\Berfin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Berfin\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
+    "C:\\Users\\Berfin\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Berfin\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

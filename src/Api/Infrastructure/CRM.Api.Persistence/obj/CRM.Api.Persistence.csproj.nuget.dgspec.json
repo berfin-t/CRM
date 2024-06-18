@@ -309,6 +309,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.3.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
             }
           },
           "imports": [

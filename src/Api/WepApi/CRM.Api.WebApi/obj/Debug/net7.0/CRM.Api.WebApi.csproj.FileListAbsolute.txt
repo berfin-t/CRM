@@ -91,3 +91,4 @@ D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\bin\Debug\net7.0\MediatR.Extensions.
 D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
 D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+D:\github\CRM\src\Api\WepApi\CRM.Api.WebApi\bin\Debug\net7.0\RabbitMQ.Client.dll

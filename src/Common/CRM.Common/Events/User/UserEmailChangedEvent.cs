@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CRM.Common.Events;
+namespace CRM.Common.Events.User;
 
 public class UserEmailChangedEvent
 {

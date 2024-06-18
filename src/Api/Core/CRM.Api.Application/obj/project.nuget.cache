@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YIvdlNQ6g8mCMHHZwr/PbF/Uw4NgwzujAZgEc1jJVObeZJnhOryciXQm/bDbf/o2mcdxFNGvED1OvIBQ0An/PA==",
+  "dgSpecHash": "ODbfyObpHY8xHGbLilYx/AvX6O23DRfH4RjpJeiVGpJzx4RFbBY1SBdH9eSQDlDwjoKr/mPyw5h76Mk787EtNg==",
   "success": true,
   "projectFilePath": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\CRM.Api.Application.csproj",
   "expectedPackageFiles": [
@@ -20,8 +20,11 @@
     "C:\\Users\\Berfin\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.21.0\\microsoft.identitymodel.jsonwebtokens.6.21.0.nupkg.sha512",
     "C:\\Users\\Berfin\\.nuget\\packages\\microsoft.identitymodel.logging\\6.21.0\\microsoft.identitymodel.logging.6.21.0.nupkg.sha512",
     "C:\\Users\\Berfin\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.21.0\\microsoft.identitymodel.tokens.6.21.0.nupkg.sha512",
+    "C:\\Users\\Berfin\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
     "C:\\Users\\Berfin\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.21.0\\system.identitymodel.tokens.jwt.6.21.0.nupkg.sha512",
-    "C:\\Users\\Berfin\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    "C:\\Users\\Berfin\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Berfin\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\Berfin\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
   ],
   "logs": [
     {
