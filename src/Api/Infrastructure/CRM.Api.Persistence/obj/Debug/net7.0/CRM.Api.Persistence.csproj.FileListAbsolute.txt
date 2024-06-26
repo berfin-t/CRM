@@ -2,8 +2,10 @@ D:\github\CRM\src\Api\Infrastructure\CRM.Api.Persistence\bin\Debug\net7.0\CRM.Ap
 D:\github\CRM\src\Api\Infrastructure\CRM.Api.Persistence\bin\Debug\net7.0\CRM.Api.Persistence.runtimeconfig.json
 D:\github\CRM\src\Api\Infrastructure\CRM.Api.Persistence\bin\Debug\net7.0\CRM.Api.Persistence.dll
 D:\github\CRM\src\Api\Infrastructure\CRM.Api.Persistence\bin\Debug\net7.0\CRM.Api.Persistence.pdb
+D:\github\CRM\src\Api\Infrastructure\CRM.Api.Persistence\bin\Debug\net7.0\CRM.Api.Application.dll
 D:\github\CRM\src\Api\Infrastructure\CRM.Api.Persistence\bin\Debug\net7.0\CRM.Api.Domain.dll
 D:\github\CRM\src\Api\Infrastructure\CRM.Api.Persistence\bin\Debug\net7.0\CRM.Common.dll
+D:\github\CRM\src\Api\Infrastructure\CRM.Api.Persistence\bin\Debug\net7.0\CRM.Api.Application.pdb
 D:\github\CRM\src\Api\Infrastructure\CRM.Api.Persistence\bin\Debug\net7.0\CRM.Api.Domain.pdb
 D:\github\CRM\src\Api\Infrastructure\CRM.Api.Persistence\bin\Debug\net7.0\CRM.Common.pdb
 D:\github\CRM\src\Api\Infrastructure\CRM.Api.Persistence\obj\Debug\net7.0\CRM.Api.Persistence.csproj.AssemblyReference.cache
@@ -18,5 +20,3 @@ D:\github\CRM\src\Api\Infrastructure\CRM.Api.Persistence\obj\Debug\net7.0\refint
 D:\github\CRM\src\Api\Infrastructure\CRM.Api.Persistence\obj\Debug\net7.0\CRM.Api.Persistence.pdb
 D:\github\CRM\src\Api\Infrastructure\CRM.Api.Persistence\obj\Debug\net7.0\CRM.Api.Persistence.genruntimeconfig.cache
 D:\github\CRM\src\Api\Infrastructure\CRM.Api.Persistence\obj\Debug\net7.0\ref\CRM.Api.Persistence.dll
-D:\github\CRM\src\Api\Infrastructure\CRM.Api.Persistence\bin\Debug\net7.0\CRM.Api.Application.dll
-D:\github\CRM\src\Api\Infrastructure\CRM.Api.Persistence\bin\Debug\net7.0\CRM.Api.Application.pdb

@@ -1,5 +1,7 @@
 ﻿using CRM.Api.Application.Features.Commands.Customer.Delete;
 using CRM.Api.Application.Features.Commands.CustomerTask.Delete;
+using CRM.Api.Application.Features.Queries.GetCustomerDetail;
+using CRM.Api.Application.Features.Queries.GetCustomerTaskDetail;
 using CRM.Common.Models.RequestModels;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -24,7 +26,22 @@ namespace CRM.Api.WebApi.Controllers
             return Ok(result);
         }
 
-        [HttpDelete]
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(Guid customerId)
+        {
+            //var customerIdClaim = User.Claims.FirstOrDefault(c => c.Type == "CustomerID");
+            //if (customerIdClaim == null)
+            //{
+            //    return BadRequest("Customer ID not found in claims.");
+            //}
+
+            //var customerId = Guid.Parse(customerIdClaim.Value);
+
+            var customerTask = await mediator.Send(new GetCustomerTaskDetailQuery(customerId, UserId));
+            return Ok(customerTask);
+        }
+
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCustomerTask(Guid customerId)
         {
             var result = await mediator.Send(new DeleteCustomerTaskCommand(customerId, UserId.Value));

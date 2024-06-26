@@ -1,4 +1,6 @@
 ﻿using CRM.Api.Application.Features.Commands.Customer.Delete;
+using CRM.Api.Application.Features.Queries.GetCustomerDetail;
+using CRM.Api.Application.Features.Queries.GetCustomers;
 using CRM.Common.Models.RequestModels;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -23,18 +25,25 @@ namespace CRM.Api.WebApi.Controllers
             return Ok(result);
         }
 
-        //[HttpGet("{id}")]
-        //public async Task<IActionResult> Get(Guid id)
-        //{
-        //    var customer = await mediator.Send(new GetCustomerDetailQuery(id, string.Empty));
-        //    return Ok(customer);
-        //}
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(Guid id)
+        {
+            var customer = await mediator.Send(new GetCustomerDetailQuery(id));
+            return Ok(customer);
+        }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCustomer(Guid id)
         {
             await mediator.Send(new DeleteCustomerCommand(id));
             return Ok();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetCustomers([FromQuery] GetCustomersQuery query)
+        {
+            var customers = await mediator.Send(query);
+            return Ok(customers);
         }
     }
 }

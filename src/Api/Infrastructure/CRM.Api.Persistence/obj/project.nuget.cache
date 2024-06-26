@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qbqceES7XYVspWYw6QjaMtiq8HWnxktxDhkBpTBLcoD4hoGPf8Eo3vmhCmx7afw57nNKIMahr6Fl2xbb0jvyTw==",
+  "dgSpecHash": "5Ivrc2lK7DyTC7DxaquWTXzhUMP/WlicS7yLKKb+jwMczcrB0hVJFTrmvBRmKVX64V1JpEBLMIqW6dYc0eCYjw==",
   "success": true,
   "projectFilePath": "D:\\github\\CRM\\src\\Api\\Infrastructure\\CRM.Api.Persistence\\CRM.Api.Persistence.csproj",
   "expectedPackageFiles": [

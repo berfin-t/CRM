@@ -1,12 +1,14 @@
-﻿using System;
+﻿using CRM.Common.Models.Queries;
+using MediatR;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CRM.Api.Application.Features.Queries.GetCustomers
+namespace CRM.Api.Application.Features.Queries.GetCustomers;
+
+public class GetCustomersQuery: IRequest<List<GetCustomersViewModel>>
 {
-    internal class GetCustomersQuery
-    {
-    }
+    public int Count { get; set; } = 50;
 }
