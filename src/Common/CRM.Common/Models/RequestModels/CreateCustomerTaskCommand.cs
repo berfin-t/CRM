@@ -11,10 +11,8 @@ public class CreateCustomerTaskCommand:IRequest<Guid>
 {
     public Guid UserId { get; set; }
     public Guid CustomerId { get; set; }
-
-    public CreateCustomerTaskCommand(Guid userId, Guid customerId)
-    {
-        UserId = userId;
-        CustomerId = customerId;
-    }
+    public string Title { get; set; }
+    public string Description { get; set; }
+    public DateTime DueDate { get; set; }
+    public Status Status { get; set; }
 }

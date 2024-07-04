@@ -21,5 +21,10 @@ public class MapProfile: Profile
         CreateMap<CreateInteractionCommand , Interaction>().ReverseMap();
         CreateMap<CreateSalesOpportunityCommand, SalesOpportunity>().ReverseMap();
         CreateMap<Customer, GetCustomersViewModel>().ReverseMap();
+        CreateMap<SalesOpportunity, GetSalesOpportunitiesByCustomerIdViewModel>().ReverseMap();
+        CreateMap<SalesOpportunity, GetSalesOpportunitiesByStageViewModel>().ReverseMap();
+        CreateMap<Interaction, GetInteractionByCustomerIdViewModel>().ReverseMap();
+
+        //CreateMap<GetSalesOpportunitiesByCustomerIdViewModel, GetSalesOpportunitiesByCustomerIdViewModel>().ReverseMap();
     }
 }

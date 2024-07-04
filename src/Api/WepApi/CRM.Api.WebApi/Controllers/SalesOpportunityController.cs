@@ -1,4 +1,7 @@
 ﻿using CRM.Api.Application.Features.Commands.SalesOpportunity.Delete;
+using CRM.Api.Application.Features.Queries.GetSalesOpportunitiesByCustomerId;
+using CRM.Api.Application.Features.Queries.GetSalesOpportunitiesByStage;
+using CRM.Common.Models;
 using CRM.Common.Models.RequestModels;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -29,6 +32,22 @@ namespace CRM.Api.WebApi.Controllers
             var result = await mediator.Send(customerId);
 
             return Ok(result);
+        }
+
+        [HttpGet]
+        [Route("CustomerId/{customerId}")]
+        public async Task<IActionResult> GetByCustomerId(Guid customerId)
+        {
+            var byCustomerId = await mediator.Send(new GetSalesOpportunitiesByCustomerIdQuery(customerId));
+            return Ok(byCustomerId);
+        }
+
+        [HttpGet]
+        [Route("Stage/{stage}")]
+        public async Task<IActionResult> GetByStaged(Stage stage)
+        {
+            var byStage = await mediator.Send(new GetSalesOpportunitiesByStageQuery(stage));
+            return Ok(byStage);
         }
     }
 }

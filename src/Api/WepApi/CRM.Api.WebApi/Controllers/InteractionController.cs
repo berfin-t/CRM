@@ -1,4 +1,5 @@
 ﻿using CRM.Api.Application.Features.Commands.Interaction.Delete;
+using CRM.Api.Application.Features.Queries.GetInteractionByCustomerId;
 using CRM.Common.Models.RequestModels;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -29,6 +30,13 @@ namespace CRM.Api.WebApi.Controllers
         {
             var result = await mediator.Send(new DeleteInteractionCommand(customerId, UserId.Value));
 
+            return Ok(result);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetByCustomerId(Guid customerId)
+        {
+            var result = await mediator.Send(new GetInteractionByCustomerIdQuery(customerId));
             return Ok(result);
         }
     }

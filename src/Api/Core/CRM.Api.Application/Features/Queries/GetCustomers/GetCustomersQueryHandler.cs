@@ -26,19 +26,9 @@ public class GetCustomersQueryHandler:IRequestHandler<GetCustomersQuery, List<Ge
     public async Task<List<GetCustomersViewModel>> Handle(GetCustomersQuery request, CancellationToken cancellationToken)
     {
         var query = customerRepository.AsQueryable();
-        
-        var list = query.Select(i => new GetCustomersViewModel()
-        {
-            Id = i.Id,
-            FirstName = i.FirstName,
-            LastName = i.LastName,
-            Email = i.Email,
-            PhoneNumber = i.PhoneNumber,
-            Address = i.Address,
-            Company = i.Company,
-            Notes = i.Notes,
-            CreatedDate = i.CreatedDate
-        });
+
+        query = query.OrderByDescending(i => i.CreatedDate) 
+                                   .Take(request.Count);
 
         return await query.ProjectTo<GetCustomersViewModel>(mapper.ConfigurationProvider)
             .ToListAsync(cancellationToken);

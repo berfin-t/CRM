@@ -10,5 +10,5 @@ namespace CRM.Api.Application.Features.Queries.GetCustomers;
 
 public class GetCustomersQuery: IRequest<List<GetCustomersViewModel>>
 {
-    public int Count { get; set; } = 50;
+    public int Count { get; set; }
 }

@@ -19,6 +19,7 @@ namespace CRM.Api.WebApi.Controllers
         }
 
         [HttpPost]
+        [Route("AddCustomer")]
         public async Task<IActionResult> Create(CreateCustomerCommand command)
         {
             var result = await mediator.Send(command);
@@ -32,7 +33,15 @@ namespace CRM.Api.WebApi.Controllers
             return Ok(customer);
         }
 
-        [HttpDelete("{id}")]
+        //[HttpDelete("{id}")]
+        //public async Task<IActionResult> DeleteCustomer(Guid id)
+        //{
+        //    await mediator.Send(new DeleteCustomerCommand(id));
+        //    return Ok();
+        //}
+
+        [HttpPost]
+        [Route("DeleteCustomer/{id}")]
         public async Task<IActionResult> DeleteCustomer(Guid id)
         {
             await mediator.Send(new DeleteCustomerCommand(id));

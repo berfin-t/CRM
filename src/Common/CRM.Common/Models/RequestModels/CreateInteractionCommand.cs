@@ -11,10 +11,9 @@ public class CreateInteractionCommand:IRequest<Guid>
 {
     public Guid CustomerId { get; set; }
     public Guid UserId { get; set; }
+    public InteractionType InteractionType { get; set; }
+    public DateTime Date { get; set; }
+    public string Notes { get; set; }
 
-    public CreateInteractionCommand(Guid customerId, Guid userId)
-    {
-        CustomerId = customerId;
-        UserId = userId;
-    }
+    
 }

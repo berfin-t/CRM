@@ -10,9 +10,9 @@ namespace CRM.Common.Models.RequestModels;
 public class CreateSalesOpportunityCommand:IRequest<Guid>
 {
     public Guid CustomerId { get; set; }
-
-    public CreateSalesOpportunityCommand(Guid customerId)
-    {
-        CustomerId = customerId;
-    }
+    public string OpportunityName { get; set; }
+    public string Description { get; set; }
+    public decimal Value { get; set; }
+    public Stage Stage { get; set; }
+    public DateTime CloseDate { get; set; }
 }
