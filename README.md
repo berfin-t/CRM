@@ -13,32 +13,28 @@
 
 <img src="ss/backend1.jpg" width=50% />
 
-###Customer
+### Customer
 - Post /api/Customer/Add : Adds a new customer.
 - Post /api/Customer/DeleteCustomer/{id} : Deletes a customer by their ID.
 - Post /api/Customer/Update : Updates customer details.
 - Get /api/Customer/{id} : Retrieves a customer by their ID.
 - Get /api/Customer/Customer : Retrieves all customers.
-- Get /api/Customer/GetByCustomerName : Retrieves customers by their name.
-  
-###CustomerTask
+- Get /api/Customer/GetByCustomerName : Retrieves customers by their name.  
+### CustomerTask
 - Post /api/CustomerTask/Add : Adds a new customer task.
 - Post /api/CustomerTask/Update : Updates a customer task.
 - Get /api/CustomerTask/{id} : Retrieves a customer task by its ID.
-- Get /api/CustomerTask/Search : Searches for customer tasks.
-  
-###Interaction
+- Get /api/CustomerTask/Search : Searches for customer tasks.  
+### Interaction
 - Post /api/Interaction/Add : Adds a new interaction.
 - Post /api/Interaction/Update : Updates an interaction.
-- Get /api/Interaction : Retrieves all interactions.
-  
-###SalesOpportunity
+- Get /api/Interaction : Retrieves all interactions.  
+### SalesOpportunity
 - Post /api/SalesOpportunity/Add : Adds a new sales opportunity.
 - Post  /api/SalesOpportunity/Update : Updates a sales opportunity.
 - Get  /api/SalesOpportunity/CustomerId/{customerId} : Retrieves sales opportunities by customer ID.
-- Get  /api/SalesOpportunity/Stage/{stage} : Retrieves sales opportunities by stage.
-  
-###User
+- Get  /api/SalesOpportunity/Stage/{stage} : Retrieves sales opportunities by stage.  
+### User
 - Post /api/User/Login : Logs in a user.
 - Post /api/User/ChangePassword : Changes a user's password.
 - Post /api/User/Confirm : Confirms a user's account.
