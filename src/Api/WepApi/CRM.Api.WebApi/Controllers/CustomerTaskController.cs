@@ -2,6 +2,7 @@
 using CRM.Api.Application.Features.Commands.CustomerTask.Delete;
 using CRM.Api.Application.Features.Queries.GetCustomerDetail;
 using CRM.Api.Application.Features.Queries.GetCustomerTaskDetail;
+using CRM.Common.Models.Queries;
 using CRM.Common.Models.RequestModels;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -20,7 +21,16 @@ namespace CRM.Api.WebApi.Controllers
         }
 
         [HttpPost]
+        [Route("Add")]
         public async Task<IActionResult> Create(CreateCustomerTaskCommand command)
+        {
+            var result = await mediator.Send(command);
+            return Ok(result);
+        }
+
+        [HttpPost]
+        [Route("Update")]
+        public async Task<IActionResult> UpdateCustomerTask([FromBody] UpdateCustomerTaskCommand command)
         {
             var result = await mediator.Send(command);
             return Ok(result);
@@ -41,11 +51,19 @@ namespace CRM.Api.WebApi.Controllers
             return Ok(customerTask);
         }
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteCustomerTask(Guid customerId)
+        [HttpGet]
+        [Route("Search")]
+        public async Task<IActionResult> Search([FromQuery] SearchCustomerTaskQuery query)
         {
-            var result = await mediator.Send(new DeleteCustomerTaskCommand(customerId, UserId.Value));
+            var result = await mediator.Send(query);
             return Ok(result);
         }
+
+        //[HttpDelete("{id}")]
+        //public async Task<IActionResult> DeleteCustomerTask(Guid customerId)
+        //{
+        //    var result = await mediator.Send(new DeleteCustomerTaskCommand(customerId, UserId.Value));
+        //    return Ok(result);
+        //}
     }
 }

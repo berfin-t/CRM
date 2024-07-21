@@ -20,19 +20,28 @@ namespace CRM.Api.WebApi.Controllers
         }
 
         [HttpPost]
+        [Route("Add")]
         public async Task<IActionResult> Create(CreateSalesOpportunityCommand command)
         {
             var result = await mediator.Send(command);
             return Ok(result);
         }
 
-        [HttpDelete]
-        public async Task<IActionResult> DeleteSalesOpportunity(Guid customerId)
+        [HttpPost]
+        [Route("Update")]
+        public async Task<IActionResult> UpdateSalesOpportunity([FromBody] UpdateSalesOpportunityCommand command)
         {
-            var result = await mediator.Send(customerId);
-
+            var result = await mediator.Send(command);
             return Ok(result);
         }
+
+        //[HttpDelete]
+        //public async Task<IActionResult> DeleteSalesOpportunity(Guid customerId)
+        //{
+        //    var result = await mediator.Send(customerId);
+
+        //    return Ok(result);
+        //}
 
         [HttpGet]
         [Route("CustomerId/{customerId}")]

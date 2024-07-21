@@ -79,17 +79,7 @@ internal class SeedData
         var guids = Enumerable.Range(0, 200).Select(i => Guid.NewGuid()).ToList();
         var counter = 0;
 
-        var contactInfo = new Faker<ContactInfo>("tr")
-            .RuleFor(i => i.Id, i => guids[counter++])
-            .RuleFor(i => i.CreatedDate, i => i.Date.Between(DateTime.UtcNow.AddDays(-100), DateTime.UtcNow))
-            .RuleFor(i => i.ContactType, i => i.PickRandom<ContactType>())
-            .RuleFor(i => i.ContactDetail, i => i.Lorem.Sentence(2, 5))
-            .RuleFor(i => i.Preferred, i => i.PickRandom(true, false))
-            .RuleFor(i => i.CustomerId, i => i.PickRandom(customerIds))            
-            .Generate(50);
-
-        await context.ContactInfos.AddRangeAsync(contactInfo);
-
+        
         var customerTask = new Faker<CustomerTask>("tr")
            .RuleFor(i => i.Id, i => Guid.NewGuid())
            .RuleFor(i => i.CreatedDate, i => i.Date.Between(DateTime.UtcNow.AddDays(-100), DateTime.UtcNow))

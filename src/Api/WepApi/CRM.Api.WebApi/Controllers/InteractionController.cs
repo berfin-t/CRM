@@ -19,25 +19,26 @@ namespace CRM.Api.WebApi.Controllers
         }
 
         [HttpPost]
+        [Route("Add")]
         public async Task<IActionResult> Create(CreateInteractionCommand command)
         {
             var result = await mediator.Send(command);
             return Ok(result);
         }
 
-        [HttpDelete]
-        public async Task<IActionResult> DeleteInteraction(Guid customerId)
+        [HttpPost]
+        [Route("Update")]
+        public async Task<IActionResult> UpdateInteraction([FromBody] UpdateInteractionCommand command)
         {
-            var result = await mediator.Send(new DeleteInteractionCommand(customerId, UserId.Value));
-
+            var result = await mediator.Send(command);
             return Ok(result);
-        }
+        }        
 
         [HttpGet]
         public async Task<IActionResult> GetByCustomerId(Guid customerId)
         {
-            var result = await mediator.Send(new GetInteractionByCustomerIdQuery(customerId));
-            return Ok(result);
+            var byId = await mediator.Send(new GetInteractionByCustomerIdQuery(customerId));
+            return Ok(byId);
         }
     }
 }

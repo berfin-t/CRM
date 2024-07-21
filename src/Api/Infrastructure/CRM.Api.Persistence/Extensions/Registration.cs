@@ -28,7 +28,6 @@ public static class Registration
         //var seedData = new SeedData();
         //seedData.SeedAsync(configuration).GetAwaiter().GetResult();
 
-        services.AddScoped<IContactInfoRepository, ContactInfoRepository>();
         services.AddScoped<ICustomerRepository, CustomerRepository>();
         services.AddScoped<ICustomerTaskRepository, CustomerTaskRepository>();
         services.AddScoped<IInteractionRepository, InteractionRepository>();

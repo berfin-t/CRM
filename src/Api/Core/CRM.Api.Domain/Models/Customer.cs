@@ -16,7 +16,6 @@ public class Customer: BaseEntity
     public string Company { get; set; }
     public string Notes { get; set; }
 
-    public virtual ICollection<ContactInfo> ContactInfos { get; set; }
     public virtual ICollection<SalesOpportunity> SalesOpportunities { get; set; }
     public virtual ICollection<CustomerTask> CustomerTasks { get; set; }
     public virtual ICollection<Interaction> Interactions { get; set; }

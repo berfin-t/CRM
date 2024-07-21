@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using FluentValidation;
+using CRM.Common.Infrastructure;
 
 namespace CRM.Api.Application.Extensions;
 
@@ -19,6 +20,7 @@ public static class Registration
         services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()));
         services.AddAutoMapper(assm);
         services.AddValidatorsFromAssembly(assm);
+
 
         return services;
     }

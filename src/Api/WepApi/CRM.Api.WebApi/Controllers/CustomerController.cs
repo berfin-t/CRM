@@ -1,4 +1,5 @@
 ﻿using CRM.Api.Application.Features.Commands.Customer.Delete;
+using CRM.Api.Application.Features.Queries.GetCustomerByCustomerName;
 using CRM.Api.Application.Features.Queries.GetCustomerDetail;
 using CRM.Api.Application.Features.Queries.GetCustomers;
 using CRM.Common.Models.RequestModels;
@@ -19,33 +20,34 @@ namespace CRM.Api.WebApi.Controllers
         }
 
         [HttpPost]
-        [Route("AddCustomer")]
+        [Route("Add")]
         public async Task<IActionResult> Create(CreateCustomerCommand command)
         {
             var result = await mediator.Send(command);
             return Ok(result);
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> Get(Guid id)
-        {
-            var customer = await mediator.Send(new GetCustomerDetailQuery(id));
-            return Ok(customer);
-        }
-
-        //[HttpDelete("{id}")]
-        //public async Task<IActionResult> DeleteCustomer(Guid id)
-        //{
-        //    await mediator.Send(new DeleteCustomerCommand(id));
-        //    return Ok();
-        //}
-
         [HttpPost]
         [Route("DeleteCustomer/{id}")]
         public async Task<IActionResult> DeleteCustomer(Guid id)
         {
-            await mediator.Send(new DeleteCustomerCommand(id));
-            return Ok();
+            var result = await mediator.Send(new DeleteCustomerCommand(id));
+            return Ok(result);
+        }
+
+        [HttpPost]
+        [Route("Update")]
+        public async Task<IActionResult> UpdateCustomer([FromBody] UpdateCustomerCommand command)
+        {
+            var result = await mediator.Send(command);
+            return Ok(result);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(Guid id)
+        {
+            var customer = await mediator.Send(new GetCustomerDetailQuery(id));
+            return Ok(customer);
         }
 
         [HttpGet]
@@ -54,5 +56,13 @@ namespace CRM.Api.WebApi.Controllers
             var customers = await mediator.Send(query);
             return Ok(customers);
         }
+
+        [HttpGet("GetByCustomerName")]
+        public async Task<IActionResult> GetByCustomerName(string firstName, string lastName)
+        {
+            var customer = await mediator.Send(new GetCustomerByCustomerNameQuery(firstName, lastName));
+            return Ok(customer);
+        }        
+        
     }
 }

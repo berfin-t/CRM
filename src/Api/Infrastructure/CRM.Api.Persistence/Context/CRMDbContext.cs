@@ -22,8 +22,6 @@ public class CRMDbContext: DbContext
 
     }
      
-
-    public DbSet<ContactInfo> ContactInfos { get; set; } 
     public DbSet<CustomerTask> CustomerTasks { get; set; }
     public DbSet<Customer> Customers { get; set; }
     public DbSet<Interaction> Interactions { get; set; }

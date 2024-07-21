@@ -1,4 +1,7 @@
 ﻿using CRM.Api.Application.Features.Commands.User.ConfirmEmail;
+using CRM.Api.Application.Features.Queries.GetCustomerDetail;
+using CRM.Api.Application.Features.Queries.GetCustomerTaskDetail;
+using CRM.Api.Application.Features.Queries.GetUserByUserId;
 using CRM.Common.Events.User;
 using CRM.Common.Models.RequestModels;
 using MediatR;
@@ -50,5 +53,28 @@ public class UserController : BaseController
 
         return Ok(result);
     }
-    
+
+    [HttpPost]
+    [Route("Add")]
+    public async Task<IActionResult> Create([FromBody] CreateUserCommand command)
+    {
+        var result = await mediator.Send(command);
+        return Ok(result);
+    }
+
+    [HttpPost]
+    [Route("Update")]
+    public async Task<IActionResult> Update([FromBody] UpdateUserCommand command)
+    {
+        var result = await mediator.Send(command);
+        return Ok(result);
+    }
+
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetById(Guid id)
+    {
+        var user = await mediator.Send(new GetUserByUserIdQuery(id));
+        return Ok(user);
+    }
+
 }

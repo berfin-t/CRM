@@ -20,21 +20,27 @@ public class ChangeUserPasswordCommandHandler:IRequestHandler<ChangeUserPassword
         this.userRepository = userRepository;
     }
 
-    public async Task<bool> Handle(ChangeUserPasswordCommand command, CancellationToken cancellationToken)
+    public async Task<bool> Handle(ChangeUserPasswordCommand request, CancellationToken cancellationToken)
     {
-        if(!command.UserId.HasValue)
+        if(!request.UserId.HasValue)
         {
-            throw new ArgumentNullException(nameof(command.UserId));
+            throw new ArgumentNullException(nameof(request.UserId));
         }
 
-        var dbUser = await userRepository.GetByIdAsync(command.UserId.Value);
+        var dbUser = await userRepository.GetByIdAsync(request.UserId.Value);
 
         if (dbUser == null)
         {
             throw new DatabaseValidationException("Uer not fount!");
         }
 
-        var encPass = PasswordEncryptor.Encrpt(command.NewPassword);
+        var encPass = PasswordEncryptor.Encrpt(request.OldPassword);
+
+        if (dbUser.Password != encPass)
+        {
+            throw new DatabaseValidationException("Old password wrong!");
+        }
+        dbUser.Password = PasswordEncryptor.Encrpt(request.NewPassword);
         await userRepository.UpdateAsync(dbUser);
 
         return true;

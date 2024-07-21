@@ -35,6 +35,7 @@ public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Guid>
         }
 
         var dbUser = mapper.Map<Domain.Models.User>(command);
+        dbUser.Password = PasswordEncryptor.Encrpt(command.Password);
 
         var rows = await userRepository.AddAsync(dbUser);
 
@@ -53,6 +54,7 @@ public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Guid>
 
         }
 
+        
         return dbUser.Id;
     }
 
