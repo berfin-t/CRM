@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "D:\\github\\CRM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2AD70F3-92DF-42E1-9EB7-CB8C7E4F85DE}|src\\Common\\CRM.Common\\CRM.Common.csproj|d:\\github\\crm\\src\\common\\crm.common\\models\\queries\\getuserbyuseridviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2AD70F3-92DF-42E1-9EB7-CB8C7E4F85DE}|src\\Common\\CRM.Common\\CRM.Common.csproj|solutionrelative:src\\common\\crm.common\\models\\queries\\getuserbyuseridviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4790B4A1-42C6-4B10-AB8B-3E679EFC5029}|src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp.csproj|d:\\github\\crm\\src\\clients\\crm.webapp\\crm.webapp\\crm.webapp\\pages\\mainpages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4790B4A1-42C6-4B10-AB8B-3E679EFC5029}|src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp.csproj|solutionrelative:src\\clients\\crm.webapp\\crm.webapp\\crm.webapp\\pages\\mainpages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{534A506B-C49B-489C-A70C-E22C8C1F7326}|src\\Api\\Core\\CRM.Api.Application\\CRM.Api.Application.csproj|d:\\github\\crm\\src\\api\\core\\crm.api.application\\mapping\\mapprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{534A506B-C49B-489C-A70C-E22C8C1F7326}|src\\Api\\Core\\CRM.Api.Application\\CRM.Api.Application.csproj|solutionrelative:src\\api\\core\\crm.api.application\\mapping\\mapprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4790B4A1-42C6-4B10-AB8B-3E679EFC5029}|src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp.csproj|d:\\github\\crm\\src\\clients\\crm.webapp\\crm.webapp\\crm.webapp\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4790B4A1-42C6-4B10-AB8B-3E679EFC5029}|src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp.csproj|solutionrelative:src\\clients\\crm.webapp\\crm.webapp\\crm.webapp\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09C48DC0-CD6A-4FB1-AB89-34A5F4F2901C}|src\\Api\\WepApi\\CRM.Api.WebApi\\CRM.Api.WebApi.csproj|d:\\github\\crm\\src\\api\\wepapi\\crm.api.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09C48DC0-CD6A-4FB1-AB89-34A5F4F2901C}|src\\Api\\WepApi\\CRM.Api.WebApi\\CRM.Api.WebApi.csproj|solutionrelative:src\\api\\wepapi\\crm.api.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4790B4A1-42C6-4B10-AB8B-3E679EFC5029}|src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp.csproj|d:\\github\\crm\\src\\clients\\crm.webapp\\crm.webapp\\crm.webapp\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4790B4A1-42C6-4B10-AB8B-3E679EFC5029}|src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp.csproj|solutionrelative:src\\clients\\crm.webapp\\crm.webapp\\crm.webapp\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09C48DC0-CD6A-4FB1-AB89-34A5F4F2901C}|src\\Api\\WepApi\\CRM.Api.WebApi\\CRM.Api.WebApi.csproj|d:\\github\\crm\\src\\api\\wepapi\\crm.api.webapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09C48DC0-CD6A-4FB1-AB89-34A5F4F2901C}|src\\Api\\WepApi\\CRM.Api.WebApi\\CRM.Api.WebApi.csproj|solutionrelative:src\\api\\wepapi\\crm.api.webapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4790B4A1-42C6-4B10-AB8B-3E679EFC5029}|src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp.csproj|d:\\github\\crm\\src\\clients\\crm.webapp\\crm.webapp\\crm.webapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4790B4A1-42C6-4B10-AB8B-3E679EFC5029}|src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp.csproj|solutionrelative:src\\clients\\crm.webapp\\crm.webapp\\crm.webapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4790B4A1-42C6-4B10-AB8B-3E679EFC5029}|src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp.csproj|d:\\github\\crm\\src\\clients\\crm.webapp\\crm.webapp\\crm.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4790B4A1-42C6-4B10-AB8B-3E679EFC5029}|src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp.csproj|solutionrelative:src\\clients\\crm.webapp\\crm.webapp\\crm.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4790B4A1-42C6-4B10-AB8B-3E679EFC5029}|src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp.csproj|d:\\github\\crm\\src\\clients\\crm.webapp\\crm.webapp\\crm.webapp\\infrastructure\\services\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4790B4A1-42C6-4B10-AB8B-3E679EFC5029}|src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp.csproj|solutionrelative:src\\clients\\crm.webapp\\crm.webapp\\crm.webapp\\infrastructure\\services\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4790B4A1-42C6-4B10-AB8B-3E679EFC5029}|src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp.csproj|d:\\github\\crm\\src\\clients\\crm.webapp\\crm.webapp\\crm.webapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4790B4A1-42C6-4B10-AB8B-3E679EFC5029}|src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp.csproj|solutionrelative:src\\clients\\crm.webapp\\crm.webapp\\crm.webapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AD70F3-92DF-42E1-9EB7-CB8C7E4F85DE}|src\\Common\\CRM.Common\\CRM.Common.csproj|d:\\github\\crm\\src\\common\\crm.common\\models\\requestmodels\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2AD70F3-92DF-42E1-9EB7-CB8C7E4F85DE}|src\\Common\\CRM.Common\\CRM.Common.csproj|solutionrelative:src\\common\\crm.common\\models\\requestmodels\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,8 +41,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 363,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 214,
+          "SelectedChildIndex": 30,
           "Children": [
             {
               "$type": "Bookmark",
@@ -139,65 +155,120 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 261,
-          "SelectedChildIndex": 1,
-          "Children": [
+            },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Pages\\Index.razor",
+              "ToolTip": "D:\\github\\CRM\\src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Pages\\Index.razor",
+              "RelativeToolTip": "src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T18:07:52.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IdentityService.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Infrastructure\\Services\\IdentityService.cs",
+              "RelativeDocumentMoniker": "src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Infrastructure\\Services\\IdentityService.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Infrastructure\\Services\\IdentityService.cs",
+              "RelativeToolTip": "src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Infrastructure\\Services\\IdentityService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T17:39:50.664Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GetUserByUserIdViewModel.cs",
-              "DocumentMoniker": "D:\\github\\CRM\\src\\Common\\CRM.Common\\Models\\Queries\\GetUserByUserIdViewModel.cs",
-              "RelativeDocumentMoniker": "src\\Common\\CRM.Common\\Models\\Queries\\GetUserByUserIdViewModel.cs",
-              "ToolTip": "D:\\github\\CRM\\src\\Common\\CRM.Common\\Models\\Queries\\GetUserByUserIdViewModel.cs",
-              "RelativeToolTip": "src\\Common\\CRM.Common\\Models\\Queries\\GetUserByUserIdViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T17:10:30.514Z",
+              "Title": "Login.razor",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Pages\\MainPages\\Login.razor",
+              "RelativeDocumentMoniker": "src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Pages\\MainPages\\Login.razor",
+              "ToolTip": "D:\\github\\CRM\\src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Pages\\MainPages\\Login.razor",
+              "RelativeToolTip": "src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Pages\\MainPages\\Login.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T17:39:00.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\wwwroot\\index.html",
+              "ToolTip": "D:\\github\\CRM\\src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\wwwroot\\index.html",
+              "RelativeToolTip": "src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\wwwroot\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-01T18:01:57.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Shared\\NavMenu.razor",
+              "ToolTip": "D:\\github\\CRM\\src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T18:01:46.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MapProfile.cs",
-              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\Mapping\\MapProfile.cs",
-              "RelativeDocumentMoniker": "src\\Api\\Core\\CRM.Api.Application\\Mapping\\MapProfile.cs",
-              "ToolTip": "D:\\github\\CRM\\src\\Api\\Core\\CRM.Api.Application\\Mapping\\MapProfile.cs",
-              "RelativeToolTip": "src\\Api\\Core\\CRM.Api.Application\\Mapping\\MapProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T17:09:20.433Z"
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Shared\\MainLayout.razor",
+              "ToolTip": "D:\\github\\CRM\\src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T17:19:00.782Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\WepApi\\CRM.Api.WebApi\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "src\\Api\\WepApi\\CRM.Api.WebApi\\Controllers\\CustomerController.cs",
-              "ToolTip": "D:\\github\\CRM\\src\\Api\\WepApi\\CRM.Api.WebApi\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "src\\Api\\WepApi\\CRM.Api.WebApi\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwC0AAAAHAAAA",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Program.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Program.cs",
+              "RelativeToolTip": "src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T17:06:03.318Z"
+              "WhenOpened": "2024-08-01T17:43:45.166Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\github\\CRM\\src\\Api\\WepApi\\CRM.Api.WebApi\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "src\\Api\\WepApi\\CRM.Api.WebApi\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\github\\CRM\\src\\Api\\WepApi\\CRM.Api.WebApi\\Controllers\\UserController.cs",
-              "RelativeToolTip": "src\\Api\\WepApi\\CRM.Api.WebApi\\Controllers\\UserController.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAgwEwAAAAWAAAA",
+              "DocumentIndex": 7,
+              "Title": "LoginUserCommand.cs",
+              "DocumentMoniker": "D:\\github\\CRM\\src\\Common\\CRM.Common\\Models\\RequestModels\\LoginUserCommand.cs",
+              "RelativeDocumentMoniker": "src\\Common\\CRM.Common\\Models\\RequestModels\\LoginUserCommand.cs",
+              "ToolTip": "D:\\github\\CRM\\src\\Common\\CRM.Common\\Models\\RequestModels\\LoginUserCommand.cs",
+              "RelativeToolTip": "src\\Common\\CRM.Common\\Models\\RequestModels\\LoginUserCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T17:05:02.426Z"
+              "WhenOpened": "2024-08-01T17:56:42.318Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 410,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         },

@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\github\\CRM\\src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\github\\CRM\\src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\obj\\Debug\\net7.0\\compressed\\70w1kryqgy.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\github\\CRM\\src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\github\\CRM\\src\\Clients\\CRM.WebApp\\CRM.WebApp\\CRM.WebApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CRM.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.CRM.WebApp.props",
+      "PackagePath": "build\\CRM.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.CRM.WebApp.props",
+      "PackagePath": "buildMultiTargeting\\CRM.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.CRM.WebApp.props",
+      "PackagePath": "buildTransitive\\CRM.WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

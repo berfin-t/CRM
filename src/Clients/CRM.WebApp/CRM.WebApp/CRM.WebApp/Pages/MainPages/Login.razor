@@ -1,0 +1,135 @@
+﻿@page "/login"
+@using CRM.Common.Models.RequestModels
+@using CRM.WebApp.Infrastructure.Services.Interfaces
+
+<div class="login-container">
+    <div class="row justify-content-center align-items-start h-100">
+
+        <div class="login-form">
+
+            <EditForm Model="@loginCommand" OnValidSubmit="LoginProcess">
+
+                @if (errorText != string.Empty)
+                {
+                    <span class="text-danger">@errorText</span>
+                    <br />
+                }
+
+                <div class="form-group">
+                    <input @bind-value="loginCommand.Email" class="form-control" type="text" placeholder="Email Address" />
+                </div>
+                <br />
+                <div class="form-group">
+                    <input @bind-value="loginCommand.Password" class="form-control" type="password" placeholder="Password" />
+                </div>
+                <br />
+                <div class="form-group">
+                    <button class="btn btn-success btn-sozluk">Login</button>
+                </div>
+
+            </EditForm>
+
+        </div>
+
+    </div>
+</div>
+
+<style>
+    .login-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f2f5;
+    }
+
+    .login-form {
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+        .form-group input {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid #dfe3e8;
+            border-radius: 5px;
+            transition: border-color 0.2s;
+        }
+
+            .form-group input:focus {
+                border-color: #007bff;
+                outline: none;
+            }
+
+        .form-group button {
+            width: 100%;
+            padding: 15px;
+            background-color: #007bff;
+            border: none;
+            color: #ffffff;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+            .form-group button:hover {
+                background-color: #0056b3;
+            }
+
+    .text-danger {
+        color: #ff4d4f;
+    }
+
+    .btn-sozluk {
+        background-color: #28a745;
+    }
+
+        .btn-sozluk:hover {
+            background-color: #218838;
+        }
+</style>
+
+@code {
+
+    [Inject]
+    IIdentityService identityService { get; set; }
+
+    [Inject]
+    NavigationManager navigationManager { get; set; }
+
+    private string errorText = "";
+
+    private LoginUserCommand loginCommand = new();
+
+    public async Task LoginProcess()
+    {
+        try
+        {
+            var res = await identityService.Login(loginCommand);
+
+            if (res)
+            {
+                errorText = "";
+                navigationManager.NavigateTo("/");
+            }
+            else
+            {
+                errorText = "Login failed with unknow reasons";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorText = ex.Message;
+        }
+    }
+}
