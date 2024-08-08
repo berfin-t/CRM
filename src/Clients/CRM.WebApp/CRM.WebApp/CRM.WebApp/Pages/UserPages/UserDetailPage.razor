@@ -1,0 +1,165 @@
+﻿@page "/user-detail/{UserId:guid}"
+@using CRM.Common.Models.Queries
+@using CRM.WebApp.Infrastructure.Services.Interfaces
+
+<div class="main-container">
+    <div class="sidebar">
+        <CRM.WebApp.Shared.NavMenu />
+    </div>
+    <div class="content">
+        <h3 class="page-title">User Detail</h3>
+
+        @if (user == null)
+        {
+            <p>Loading...</p>
+        }
+        else if (errorText != null)
+        {
+            <p class="text-danger">@errorText</p>
+        }
+        else
+        {
+            <div class="user-details">
+                <h4 class="section-title">User Information</h4>
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <p id="username" class="detail-value">@user.Username</p>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <p id="email" class="detail-value">@user.Email</p>
+                </div>
+                <div class="form-group">
+                    <label for="first-name">First Name:</label>
+                    <p id="first-name" class="detail-value">@user.FirstName</p>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name:</label>
+                    <p id="last-name" class="detail-value">@user.LastName</p>
+                </div>
+                <div class="form-group">
+                    <label for="role">Role:</label>
+                    <p id="role" class="detail-value">@user.Role</p>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f8f9fa;
+        color: #212529;
+    }
+
+    .page-title {
+        text-align: center;
+        margin-top: 20px;
+        color: #007bff;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .main-container {
+        display: flex;
+        min-height: 100vh; /* Sayfanın yüksekliği viewport yüksekliğine eşit olur */
+    }
+
+    
+
+    .sidebar {
+        width: 200px;
+        background-color: #343a40;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0; /* Alt kısımda da genişliği belirler */
+        overflow-y: auto; /* Yan menü kaydırılabilir, içerik kaydırılabilir */
+    }
+
+
+    .page-title {
+        text-align: center;
+        margin-top: 20px;
+        color: #007bff;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .user-details {
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        width: 50%; /* Tam genişlik */
+        margin: 40px auto;
+        border-left: 8px solid #007bff;
+    }
+
+    .section-title {
+        color: #007bff;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #e0e0e0;
+        padding-bottom: 10px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+        .form-group label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            color: #495057;
+        }
+
+        .form-group p.detail-value {
+            margin: 0;
+            padding: 10px;
+            background-color: #f1f3f5;
+            border-radius: 5px;
+            border: 1px solid #e9ecef;
+        }
+
+    .text-danger {
+        color: #dc3545;
+        text-align: center;
+    }
+</style>
+
+@code {
+    [Inject]
+    IUserService userService { get; set; }
+
+    [Inject]
+    NavigationManager navigationManager { get; set; }
+
+    [Parameter]
+    public Guid UserId { get; set; }
+
+    private GetUserByUserIdViewModel user = new();
+    private string errorText;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            user = await userService.GetUserDetail(UserId);
+            if (user == null)
+            {
+                errorText = "User not found.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorText = ex.Message;
+        }
+    }
+}

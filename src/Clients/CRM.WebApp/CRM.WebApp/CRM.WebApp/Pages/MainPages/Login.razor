@@ -1,14 +1,16 @@
 ﻿@page "/login"
 @using CRM.Common.Models.RequestModels
 @using CRM.WebApp.Infrastructure.Services.Interfaces
+@using Microsoft.AspNetCore.Components.Forms
 
 <div class="login-container">
     <div class="row justify-content-center align-items-start h-100">
 
         <div class="login-form">
 
-            <EditForm Model="@loginCommand" OnValidSubmit="LoginProcess">
+             <EditForm Model="@loginCommand" OnValidSubmit="LoginProcess">
 
+ 
                 @if (errorText != string.Empty)
                 {
                     <span class="text-danger">@errorText</span>
@@ -24,15 +26,16 @@
                 </div>
                 <br />
                 <div class="form-group">
-                    <button class="btn btn-success btn-sozluk">Login</button>
+                    <button type="submit" class="btn btn-success btn-crm">Login</button>
+
                 </div>
 
             </EditForm>
-
+ 
         </div>
 
     </div>
-</div>
+</div> 
 
 <style>
     .login-container {
@@ -49,15 +52,15 @@
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         width: 100%;
-        max-width: 400px;
+        max-width: 800px;
     }
 
     .form-group {
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
         .form-group input {
-            width: 100%;
+            width: 90%;
             padding: 15px;
             border: 1px solid #dfe3e8;
             border-radius: 5px;
@@ -90,14 +93,14 @@
         color: #ff4d4f;
     }
 
-    .btn-sozluk {
+    .btn-crm {
         background-color: #28a745;
     }
 
-        .btn-sozluk:hover {
+        .btn-crm:hover {
             background-color: #218838;
         }
-</style>
+</style> 
 
 @code {
 
@@ -111,16 +114,18 @@
 
     private LoginUserCommand loginCommand = new();
 
+
     public async Task LoginProcess()
     {
         try
         {
             var res = await identityService.Login(loginCommand);
 
-            if (res)
+            if (res != null)
             {
                 errorText = "";
-                navigationManager.NavigateTo("/");
+                var userId = res.Id;
+                navigationManager.NavigateTo($"/user-detail/{userId}");
             }
             else
             {
@@ -132,4 +137,4 @@
             errorText = ex.Message;
         }
     }
-}
+} 

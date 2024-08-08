@@ -1,9 +1,10 @@
-﻿using CRM.Common.Models.RequestModels;
+﻿using CRM.Common.Models.Queries;
+using CRM.Common.Models.RequestModels;
 
 namespace CRM.WebApp.Infrastructure.Services.Interfaces
 {
     public interface IIdentityService
     {
-        Task<bool> Login(LoginUserCommand command);
+        Task<LoginUserViewModel> Login(LoginUserCommand command);
     }
 }

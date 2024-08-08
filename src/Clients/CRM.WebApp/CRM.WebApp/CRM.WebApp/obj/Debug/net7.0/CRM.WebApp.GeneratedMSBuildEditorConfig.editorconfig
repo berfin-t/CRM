@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpblBhZ2VzXExvZ2luLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/github/CRM/src/Clients/CRM.WebApp/CRM.WebApp/CRM.WebApp/Pages/UserPages/UserDetailPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhZ2VzXFVzZXJEZXRhaWxQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/github/CRM/src/Clients/CRM.WebApp/CRM.WebApp/CRM.WebApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

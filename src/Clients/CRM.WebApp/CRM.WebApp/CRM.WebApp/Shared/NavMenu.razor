@@ -1,16 +1,27 @@
-﻿<ul class="nav flex-column">
+﻿@* NavMenu.razor *@
+<ul class="nav flex-column">
     <li class="nav-item">
-        <a class="nav-link active" href="/">Home</a>
+        <a class="nav-link" href="/">Customers</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="/login">Login</a>
+        <a class="nav-link" href="/login">Customer Tasks</a>
     </li>
-    <!-- Add more navigation links as needed -->
+    <li class="nav-item">
+        <a class="nav-link" href="/user-detail">User Details</a>
+    </li>
+    <!-- Daha fazla navigasyon linki ekleyebilirsiniz -->
 </ul>
 
 <style>
     .nav {
         padding-left: 0;
+        background-color: #343a40;
+        width: 200px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow-y: auto;
     }
 
     .nav-item {
@@ -21,9 +32,10 @@
         color: #fff;
         text-decoration: none;
         font-weight: bold;
-        padding: 10px;
+        padding: 15px;
         border-radius: 4px;
         display: block;
+        transition: background-color 0.2s, color 0.2s;
     }
 
         .nav-link:hover {

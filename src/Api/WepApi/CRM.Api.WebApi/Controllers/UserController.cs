@@ -2,6 +2,7 @@
 using CRM.Api.Application.Features.Queries.GetCustomerDetail;
 using CRM.Api.Application.Features.Queries.GetCustomerTaskDetail;
 using CRM.Api.Application.Features.Queries.GetUserByUserId;
+using CRM.Api.Application.Features.Queries.GetUserDetail;
 using CRM.Common.Events.User;
 using CRM.Common.Models.RequestModels;
 using MediatR;
@@ -74,6 +75,14 @@ public class UserController : BaseController
     public async Task<IActionResult> GetById(Guid id)
     {
         var user = await mediator.Send(new GetUserByUserIdQuery(id));
+        return Ok(user);
+    }
+
+    [HttpGet]
+    [Route("UserDetail/{id}")]
+    public async Task<IActionResult> Get(Guid id)
+    {
+        var user = await mediator.Send(new GetUserDetailQuery(id, string.Empty));
         return Ok(user);
     }
 

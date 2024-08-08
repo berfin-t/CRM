@@ -1,7 +1,7 @@
 {
   "entryAssembly": "CRM.WebApp",
   "resources": {
-    "hash": "sha256-muHIK4isx98DCG0a+ITkIsb91nonK9ggvaTCoksaob0=",
+    "hash": "sha256-/uy+rpnGObNC2zP6P313MDmJfJGrwix9XhiIKPJxSiY=",
     "runtime": {
       "dotnet.7.0.18.gyj25uyjv6.js": "sha256-lsqy0PQ8nf1/0sSlLGe3Kfwi8V0Q1QzVy5+AqtJ3cfU=",
       "dotnet.timezones.blat": "sha256-aPcvvHoFVwCzeRxTOvMTcrI2l2HKJO0sjSN7IF10LUQ=",
@@ -11,14 +11,16 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
+      "Blazored.LocalStorage.dll": "sha256-xcO4wZtFwM5I9DIZf1sZpOdcsaTjw1HyqJ5AWciMDAk=",
       "MediatR.dll": "sha256-hEyb+AlRsbEerCecJf5NlBy5lhp9/RD6hTA0HE0Ut+Y=",
       "MediatR.Contracts.dll": "sha256-wmATBKqdFcUaVD4cMwA2jGSsOGM+cne7g1oE9o3famE=",
-      "Microsoft.AspNetCore.Authorization.dll": "sha256-38TtIvwDPxVxpvFKDaJEL1KnTkSn2xwgRbinNxl6Wbg=",
-      "Microsoft.AspNetCore.Components.dll": "sha256-VQb19ejCfdo/O+5OfrB3W6/wWfCwK8jIIKrVKUAY4QM=",
+      "Microsoft.AspNetCore.Authorization.dll": "sha256-inb7VSJ8MbisrKkE6xM0zuYupL2VrGJebY/RYSfefaQ=",
+      "Microsoft.AspNetCore.Components.dll": "sha256-ScTTRq19ZjJQojkZfjSU4bgMM9JF/sX+n9bfusNfbCY=",
+      "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-8mBZwKF9iX/FV0nNygVAgZKF0rZG7gw9t5hgmh3nhPE=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-9ycrJHGZ8cVbP8U7W5ruuEbJdyIpg2JDF9OKjtHMLa4=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-kxzlp+29vabDVUn4i8u0TvH40vv38Ye5UBHzHKvlBZg=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-aN9qhQbTEGbIFNPf0EMGmdI4VLJyxpemjNuMwQbBhkw=",
-      "Microsoft.AspNetCore.Metadata.dll": "sha256-odXnS+takDHWtwZd7jqSzE/Smv607gimsnL2FP+J0OE=",
+      "Microsoft.AspNetCore.Metadata.dll": "sha256-39jRMiE9R8zt3/hxcXhm8VIhHBNviDPyye7v4iydqA4=",
       "Microsoft.Extensions.Configuration.dll": "sha256-PqQvp77oZ4+uuy2ElXk8AU9I6RfZSf18UGTrd4rulOo=",
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-CnS3b9EMFQmETBUVEgtcron4DBsfFdcVt3zfCP6Uflg=",
       "Microsoft.Extensions.Configuration.Binder.dll": "sha256-7GY9+7Cm0Z8DJ+JCFwgCx9OfFtUvXlFHaaLlBYmXfIE=",
@@ -34,9 +36,14 @@
       "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-7mzUlhcvGxpAVO4h/Tka7P/8IXF9ZsHkGt0fp5aufkU=",
       "Microsoft.Extensions.Options.dll": "sha256-gcHJrSv1wTqvF9SyWTEKcbiShn4mkgfnm9+tRQr4OqY=",
       "Microsoft.Extensions.Primitives.dll": "sha256-q4ruoDSCjV/QJY9ZkzV6uxvEvZUVrDbyUjU3SSh5SlE=",
+      "Microsoft.IdentityModel.Abstractions.dll": "sha256-MmslYt/nL8xw2WbWcj6saEHBLaJiTv95fvS8bAf+aAQ=",
+      "Microsoft.IdentityModel.JsonWebTokens.dll": "sha256-yXTIu1ndj5VFkbszT21NtkBlDC8zxo2V9zheBol5b3E=",
+      "Microsoft.IdentityModel.Logging.dll": "sha256-n1Aonv7geY8thTIILZWsGA5C5UbAm4sUv47QNLDUzFQ=",
+      "Microsoft.IdentityModel.Tokens.dll": "sha256-500+EbhoDIKXqFz/VoE0SWGigotsEeZxUPFB7dF/ZgE=",
       "Microsoft.JSInterop.dll": "sha256-xenAnavn/a92BD+qN9enjJLVttI91ZqW5ulI6Y81VdI=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-ECKh1S96xdsHV9EhDvH4KfG1ihaSfcZ/Ys4I2zy5V+M=",
       "RabbitMQ.Client.dll": "sha256-ts7Ft8qbrry7knlov7jtLuHDueCNGbWMF1R77AFrxLc=",
+      "System.IdentityModel.Tokens.Jwt.dll": "sha256-iK7HPBUZ64F3MAQPuILeFyG/Z5+FvEv9W1etVk+wLFM=",
       "System.IO.Pipelines.dll": "sha256-P/MqD0fCBd5bgTM16JC1QC/Zz7s+CwViyzmDFkBG4/c=",
       "Microsoft.CSharp.dll": "sha256-2DlWUgBXZj3PA2zaBwGgffMG/rdgueCeUWwYAIMNjHE=",
       "Microsoft.VisualBasic.Core.dll": "sha256-StNIK4ItuwOeKWQ0Jxc2DYwA9cTwHANGNwjESIWJF/U=",
@@ -206,12 +213,12 @@
       "mscorlib.dll": "sha256-0HcXGniS+WAs4hupbRUCnwMELwoYJxH9EvPE3IR0EqQ=",
       "netstandard.dll": "sha256-NXaYbCfP6xdQO3fJkzooXzSY4o1/iQDrumjom6Lm57g=",
       "System.Private.CoreLib.dll": "sha256-liKvB0yZJmhm3WN18TOgTvS9tWwMZzi0mlqZNDk8Pkg=",
-      "CRM.Common.dll": "sha256-bdEmXQ23hkYK7mPtG7sw2w28iV5EbT+LT4QVCUuAOQg=",
-      "CRM.WebApp.dll": "sha256-12Ja4BvE6TM+fzulQsCLw8PX7aLKAwzd60zLGxOy4Yo="
+      "CRM.Common.dll": "sha256-HT4fFrE2sMzqtkQPTw9t1syRhBrwPKKW31RiIMtxGTQ=",
+      "CRM.WebApp.dll": "sha256-p39Yq1PFYSwW01zUzv3M5ijRsFYHE8Ll31/1VtJjrPM="
     },
     "pdb": {
-      "CRM.Common.pdb": "sha256-cnadwZjiDvohVT+KM9iZW4jUr4egKCBn1WEx7kksCH8=",
-      "CRM.WebApp.pdb": "sha256-bmiaQ2ixDid1dl+upQkmRn4MJIPNJ2pp/9dKodxm5JQ="
+      "CRM.Common.pdb": "sha256-bSGsfVV7ogP9f+bnvmPoDXcYMg3FMoiNuM6PI8DJbGU=",
+      "CRM.WebApp.pdb": "sha256-FpOswoLpTDZprSnY5Gifk7AXbKhGDnxCgE5gHtQ4XQA="
     },
     "runtimeAssets": {
       "dotnet.wasm": {

@@ -29,7 +29,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{01C7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CRM.WebApp", "CRM.WebApp", "{DE9A1FB7-BCDB-420F-9E20-B572C333983F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.WebApp", "src\Clients\CRM.WebApp\CRM.WebApp\CRM.WebApp\CRM.WebApp.csproj", "{4790B4A1-42C6-4B10-AB8B-3E679EFC5029}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRM.WebApp", "src\Clients\CRM.WebApp\CRM.WebApp\CRM.WebApp\CRM.WebApp.csproj", "{4790B4A1-42C6-4B10-AB8B-3E679EFC5029}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
